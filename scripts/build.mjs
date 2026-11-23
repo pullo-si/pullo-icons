@@ -89,7 +89,7 @@ const iconSet = {
     total: Object.values(icons).filter((i) => !i.hidden).length,
     version: pkg.version,
     author: { name: "Andrej Rus" },
-    license: { title: "MIT", spdx: "MIT", url: "https://opensource.org/license/mit" },
+    license: { title: "MIT", spdx: "MIT", url: "https://github.com/pullo-si/pullo-icons/blob/main/LICENSE" },
     samples: ["shield-user", "clipboard-check", "check-circle-multiple"],
     height: 24,
     category: "UI Other / Mixed Grid",

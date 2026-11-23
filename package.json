@@ -5,7 +5,14 @@
   "description": "Extra icons in the style of Phosphor Icons, for the icons Phosphor doesn't have. Iconify JSON and plain SVG, six weights.",
   "license": "MIT",
   "author": "Andrej Rus",
-  "repository": "TODO: GitHub home not decided yet",
+  "homepage": "https://github.com/pullo-si/pullo-icons#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pullo-si/pullo-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pullo-si/pullo-icons/issues"
+  },
   "type": "module",
   "keywords": [
     "icons",
