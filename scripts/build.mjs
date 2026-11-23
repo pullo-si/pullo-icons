@@ -90,7 +90,7 @@ const iconSet = {
     version: pkg.version,
     author: { name: "Andrej Rus" },
     license: { title: "MIT", spdx: "MIT", url: "https://github.com/pullo-si/pullo-icons/blob/main/LICENSE" },
-    samples: ["shield-user", "clipboard-check", "check-circle-multiple"],
+    samples: ["shield-user", "check-circle-multiple", "x-circle-multiple"],
     height: 24,
     category: "UI Other / Mixed Grid",
     tags: ["Has Padding"],
