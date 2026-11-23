@@ -15,7 +15,10 @@ const issue = (url) => {
   return `<a href="${url}">${repo ? `${repo} #${n}` : "GitHub"}</a>`;
 };
 
-/** @param {{ snapshots?: Record<string, string> }} options PNG data URIs of a 1x render, per icon. */
+/**
+ * @param {{ snapshots?: Record<string, { src: string, width: number, scale: number }> }} options
+ *   Per icon, an optional screenshot taken on a 1x screen (a PNG data URI), shown enlarged.
+ */
 export function renderPreview({ snapshots = {} } = {}) {
   const icons = JSON.parse(readFileSync(join(root, "icons.json"), "utf8")).icons;
   const list = names();
@@ -46,10 +49,12 @@ export function renderPreview({ snapshots = {} } = {}) {
       cards +=
         `<figure class="weight"><figcaption><span class="wname">${w}</span>` +
         `<span class="stroke">${STROKE[w] ? `stroke ${STROKE[w]}` : w === "fill" ? "solid" : "20% tint"}</span>${corrected}</figcaption>` +
-        `<div class="plate">${svg(ours, 160, `${name} ${w}, large`)}</div>${strips}</figure>`;
+        `<div class="plate">${svg(ours, 128, `${name} ${w}, large`)}</div><div class="strips">${strips}</div></figure>`;
     }
-    const snapshot = snapshots[name]
-      ? `<figure class="snapshot"><figcaption>On a 1x screen, pixels enlarged three times: rows thin to duotone, each at 16, 20 and 24 px, ours last.</figcaption><div class="frame"><img src="${snapshots[name]}" alt="1x render of ${name} next to Phosphor icons"></div></figure>`
+    const shot = snapshots[name];
+    const snapshot = shot
+      ? `<figure class="snapshot"><figcaption>A screenshot from a 1x screen, every pixel enlarged ${shot.scale} times: rows thin to duotone, each at 16, 20 and 24 px, ours last on the tinted square.</figcaption>` +
+        `<div class="frame"><img src="${shot.src}" width="${shot.width * shot.scale}" alt="${name} on a 1x screen next to Phosphor icons"></div></figure>`
       : "";
     sections +=
       `<section class="icon" id="${name}"><header class="icon-head">` +
@@ -117,22 +122,26 @@ h2 { margin: 0; font-size: 24px; font-weight: 600; letter-spacing: -.01em; }
 .notes { margin: 4px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
 .notes li { font-size: 14px; }
 .tag { display: inline-block; font-size: 11px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); border: 1px solid currentColor; border-radius: 3px; padding: 0 5px; margin-right: 6px; }
-.weights { display: grid; grid-template-columns: repeat(auto-fill, minmax(172px, 1fr)); gap: 12px; }
-.weight { margin: 0; background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 12px; display: grid; gap: 8px; align-content: start; min-width: 0; }
-.weight figcaption { display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap; }
+.weights { display: grid; grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); gap: 12px; }
+.weight {
+  margin: 0; background: var(--card); border: 1px solid var(--rule); border-radius: 6px; padding: 12px;
+  display: grid; grid-template-columns: auto 1fr; gap: 10px 14px; align-items: center; min-width: 0;
+}
+.weight figcaption { grid-column: 1 / -1; display: flex; align-items: baseline; gap: 8px; }
 .wname { font-weight: 600; }
 .stroke { font-size: 11px; color: var(--muted); }
 .dot { font-family: var(--mono); font-size: 10px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); margin-left: auto; }
 .plate {
-  justify-self: center; width: 160px; max-width: 100%; aspect-ratio: 1; color: var(--ink);
+  width: 128px; aspect-ratio: 1; max-width: 100%; color: var(--ink);
   background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px);
-  background-size: 10px 10px; box-shadow: inset 0 0 0 1px var(--grid);
+  background-size: 6.25% 6.25%; box-shadow: inset 0 0 0 1px var(--grid);
 }
 .plate svg { display: block; width: 100%; height: auto; }
-.strip { display: flex; align-items: center; gap: 6px; min-height: 30px; }
+.strips { display: grid; gap: 4px; min-width: 0; }
+.strip { display: flex; align-items: center; gap: 4px; }
 .strip svg { display: block; }
-.px { width: 22px; font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
-.ph, .ours { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; }
+.px { width: 20px; font-size: 10px; color: var(--muted); font-variant-numeric: tabular-nums; }
+.ph, .ours { display: grid; place-items: center; width: 30px; height: 30px; border-radius: 4px; flex: none; }
 .ours { background: var(--accent-soft); }
 .snapshot { margin: 0; display: grid; gap: 8px; }
 .snapshot figcaption { font-size: 13px; color: var(--muted); }
@@ -140,10 +149,9 @@ h2 { margin: 0; font-size: 24px; font-weight: 600; letter-spacing: -.01em; }
 .snapshot img { display: block; image-rendering: pixelated; background: #fff; border: 1px solid var(--rule); border-radius: 4px; max-width: none; }
 footer { font-size: 13px; color: var(--muted); border-top: 1px solid var(--rule); padding-top: 20px; }
 @media (max-width: 480px) {
-  .weights { grid-template-columns: 1fr 1fr; gap: 8px; }
-  .weight { padding: 8px; }
-  .ph, .ours { width: 24px; }
-  .strip { gap: 2px; }
+  .weights { grid-template-columns: 1fr; }
+  .plate { width: 104px; }
+  .ph, .ours { width: 27px; }
 }
 </style>
 <main class="page">
