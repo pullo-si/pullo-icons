@@ -1,0 +1,5 @@
+node_modules/
+# npm run build and npm run compare write these; open preview/index.html locally.
+preview/
+*.tgz
+.DS_Store
