@@ -109,6 +109,3 @@ are generated and committed. How to draw and check an icon: [CONTRIBUTING.md](CO
 
 - [Phosphor Icons](https://phosphoricons.com) by Helena Zhang and Tobias Fried, whose
   style, grid and shapes these icons are made of.
-- [phosphor-style-icon-design-skill](https://github.com/olegoratovskiy/phosphor-style-icon-design-skill)
-  by Noiseloop, for ideas about the design process (direction search, refining one
-  problem at a time, parts of the check list).

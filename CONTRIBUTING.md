@@ -16,9 +16,13 @@ For a new icon, don't refine the first idea. Sketch three to five candidates who
 silhouettes are clearly different (a different main object or arrangement, not small
 variations of one), and look at them at 24 and 16 px next to the Phosphor icons they
 will sit beside. Pick one with whoever asked for the icon and agree on which parts of
-it stay as they are. From then on, fix one visual problem per round ("the glyph crowds
-the frame in bold"), and keep the chosen candidate in every comparison so you can see
-whether a change made it better.
+it stay as they are. From then on, each round deals with a single thing that looks wrong
+("the glyph crowds the frame in bold"), and the best version so far stays in every
+comparison until it is done, so you can see whether a change made it better.
+
+When someone reviews the icon, say back the exact change you are about to make before
+you make it. A cropped screenshot from a reviewer marks one spot: fix that spot and
+leave the rest of the icon alone.
 
 ## 3. Draw on Phosphor's grid
 
@@ -112,10 +116,21 @@ npm run compare    # writes preview/compare-<name>.png and prints the checks
 
 `compare` renders every weight at 16, 20 and 24 px on a 1x screen after its
 neighbours, lays it over its Phosphor frame, and fails when the frame doesn't match
-Phosphor's or the built outline differs from your drawing. Then go through this list:
+Phosphor's or the built outline differs from your drawing.
 
-- **Weight.** At 16, 20 and 24 px the strokes look as heavy as the neighbours', and the
-  glyph doesn't turn into a blob at 16 px.
+Judge the icon only beside its neighbours, three to six Phosphor icons in the same
+weight, at 16, 20 and 24 px and enlarged. Choose them for the question you are asking:
+icons that fill their square (`circle`, `square`, `shield`) show whether it is too big
+or too small, icons with small parts inside (`clipboard-text`, `identification-badge`)
+show whether its gaps are wide enough, and busy icons (`list-checks`, `users-three`)
+show whether it has too many lines. Then go through this list:
+
+- **Recognizable.** At the smallest size it is used, it says what it is without a
+  label.
+- **Weight.** At 16, 20 and 24 px the strokes look as heavy as the neighbours' and
+  equally heavy all over the icon, and the glyph doesn't turn into a blob at 16 px.
+- **Footprint.** It takes up about as much room as its neighbours: a shield no bigger
+  than `shield`, a circle no smaller than `check-circle`.
 - **Frame.** In the line weights, "of Phosphor's ink uncovered" is near 0 %: your frame
   lies exactly on Phosphor's.
 - **Optical centre.** Centre the glyph by eye, not by its bounding box: a check mark
@@ -130,6 +145,8 @@ Phosphor's or the built outline differs from your drawing. Then go through this 
 - **Inactive colour.** Look at it in a light grey as well, the way disabled and
   inactive icons are shown; thin details vanish there first.
 - **Exact strokes.** No uneven scaling anywhere; move points instead.
+- **Calm.** Every line helps someone recognize the icon; drop the ones that only
+  decorate. Phosphor says a lot with very few strokes.
 
 ## How the build works
 
