@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "admin",
+    "administrator",
+    "role",
+    "permissions",
+    "account",
+    "security",
+    "guard",
+    "protected",
+    "moderator",
+    "user shield"
+  ],
+  "categories": [
+    "system",
+    "people"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/550",
+  "addedIn": "0.1.0",
+  "neighbours": [
+    "shield",
+    "shield-check",
+    "shield-star",
+    "user"
+  ],
+  "frame": "shield",
+  "notes": {
+    "bold": "The shoulders end 8 degrees earlier on each side. At full length the thicker stroke almost touched the sides of the shield; now the gap is as wide as in regular."
+  }
+}

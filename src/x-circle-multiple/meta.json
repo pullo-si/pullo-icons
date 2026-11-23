@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "close all",
+    "dismiss all",
+    "cancel all",
+    "clear all",
+    "reject all",
+    "mark all absent",
+    "errors",
+    "multiple",
+    "bulk"
+  ],
+  "categories": [
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.1.0",
+  "neighbours": [
+    "x-circle",
+    "users",
+    "copy"
+  ],
+  "frame": null,
+  "notes": {
+    "bold": "The back arc ends earlier, so a 14-unit gap stays between it and the front circle, as in Phosphor's users in bold (it nearly touched). The X is 2 units smaller on each side, so it doesn't fill the small circle at 16 px."
+  }
+}

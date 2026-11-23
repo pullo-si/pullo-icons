@@ -1,0 +1,26 @@
+{
+  "tags": [
+    "check all",
+    "select all",
+    "approve all",
+    "confirm all",
+    "mark all present",
+    "done",
+    "multiple",
+    "bulk"
+  ],
+  "categories": [
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.1.0",
+  "neighbours": [
+    "check-circle",
+    "users",
+    "copy"
+  ],
+  "frame": null,
+  "notes": {
+    "bold": "The back arc ends earlier, so a 14-unit gap stays between it and the front circle, as in Phosphor's users in bold (it nearly touched). The check is about 8 % smaller, so it keeps clear of the circle."
+  }
+}
