@@ -19,6 +19,7 @@ Each icon comes in six weights, named the way Phosphor names them: `shield-user-
 | Icon | Use it for | Phosphor request it answers |
 |---|---|---|
 | `shield-user` | Roles, administrators, account security | [homepage#550](https://github.com/phosphor-icons/homepage/issues/550) |
+| `clipboard-check` | Checklists, sessions, finished tasks | [homepage#596](https://github.com/phosphor-icons/homepage/issues/596). Phosphor [plans its own](https://github.com/phosphor-icons/homepage/issues/970#issuecomment-6956525818); ours is deprecated when it ships |
 | `check-circle-multiple` | Check all, approve all, mark all present | None yet |
 | `x-circle-multiple` | Dismiss all, reject all, mark all absent | None yet |
 

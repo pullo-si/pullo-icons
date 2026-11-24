@@ -30,7 +30,7 @@ copyright line next to ours.
 ## Build
 
 - `src/<name>/`: `line.svg` (centerlines on the 256 grid), `fill.svg`, `duotone.svg`,
-  `meta.json`, optional per-weight overrides (every icon so far has a `bold.svg`).
+  `meta.json`, optional per-weight overrides (all four icons have `bold.svg`).
 - `npm run build` writes `assets/` and `icons.json` (committed, never edit by hand) and
   `preview/` (gitignored). `npm run compare` runs the browser check.
 - Reuse Phosphor's geometry from `node_modules/@iconify-json/ph`: the centerline runs
@@ -51,11 +51,10 @@ the maintainer:
 
 ## Status (0.1.0)
 
-- Icons: `shield-user` (homepage#550), `check-circle-multiple` and
+- Icons: `shield-user` (homepage#550), `clipboard-check` (#596; Phosphor has it
+  "slated for the next release", homepage#970, 2026-11-17, but hasn't shipped it; ours
+  stays until theirs ships, then is deprecated), `check-circle-multiple` and
   `x-circle-multiple` (no request).
-- `clipboard-check` (homepage#596) was dropped before the first release: Phosphor has
-  its own "slated for the next release" (homepage#970, 2026-11-17). The drawing is in
-  git history if theirs never ships.
 - Next, each only with the maintainer's OK: first `npm publish` (npm account with 2FA,
   then remove `"private": true`); trusted publishing from a GitHub Actions release
   workflow, no stored token; post the drawings in the matching Phosphor requests; ask
