@@ -1,46 +1,88 @@
-# Publishes to npm when a GitHub release is published. npm trusts this workflow
-# (trusted publishing, set up on npmjs.com for pullo-si/pullo-icons and release.yml),
-# so no token is stored anywhere; npm adds provenance on its own.
+# A release starts by pushing a branch named release/<version>, made from main:
+#
+#   git switch main && git pull
+#   git switch -c release/0.2.0 && git push -u origin release/0.2.0
+#
+# The workflow then sets the version, rebuilds, commits, stages the package on npm,
+# tags v<version>, moves main to the release commit, makes the GitHub release and
+# deletes the branch. Last step, by hand: approve the staged version on npmjs.com
+# (Staged Packages tab, with 2FA). Until then nothing is installable.
+#
+# npm trusts this workflow by its filename (trusted publishing, set up on npmjs.com
+# for pullo-si/pullo-icons and release.yml), so no npm token is stored anywhere.
 name: Release
 
 on:
-  release:
-    types: [published]
+  push:
+    branches: ["release/*"]
 
 permissions:
-  contents: read
-  id-token: write # lets npm verify that the publish comes from this workflow
+  contents: write # commit, tag, move main, make the GitHub release
+  id-token: write # lets npm verify that the package comes from this workflow
+
+concurrency:
+  group: release
+  cancel-in-progress: false
 
 jobs:
-  publish:
+  release:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0 # tags and main, to check them
       - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
         with:
-          node-version: 24 # ships npm 11.5.1 or later, which trusted publishing needs
+          node-version: 24
           registry-url: https://registry.npmjs.org
+      - name: npm that can stage over trusted publishing (11.15 or later)
+        run: npm install --global npm@11.21.2
 
-      - name: The release tag matches package.json
+      - name: Read the version from the branch name
+        id: version
         run: |
-          version=$(node -p 'require("./package.json").version')
-          if [ "$GITHUB_REF_NAME" != "v$version" ]; then
-            echo "::error::Release tag $GITHUB_REF_NAME, but package.json says $version (expected tag v$version)."
+          version="${GITHUB_REF_NAME#release/}"
+          version="${version#v}"; version="${version#.}" # release/v0.2.0 and release/v.0.2.0 work too
+          if ! echo "$version" | grep -Eq '^[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.-]+)?$'; then
+            echo "::error::Branch $GITHUB_REF_NAME: name it release/<version>, e.g. release/0.2.0."
             exit 1
           fi
+          if git rev-parse -q --verify "refs/tags/v$version" >/dev/null; then
+            echo "::error::Tag v$version already exists. Pick the next version."
+            exit 1
+          fi
+          if ! git merge-base --is-ancestor origin/main HEAD; then
+            echo "::error::$GITHUB_REF_NAME doesn't contain the latest main. Delete the branch, update main and branch again."
+            exit 1
+          fi
+          case "$version" in
+            *-*) echo "npm_tag=next" >> "$GITHUB_OUTPUT"; echo "prerelease=--prerelease" >> "$GITHUB_OUTPUT" ;;
+            *) echo "npm_tag=latest" >> "$GITHUB_OUTPUT"; echo "prerelease=" >> "$GITHUB_OUTPUT" ;;
+          esac
+          echo "version=$version" >> "$GITHUB_OUTPUT"
 
       - run: npm ci
 
-      - name: The committed icons.json and assets/ match src/
+      - name: Set the version, rebuild and commit
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
         run: |
+          npm version "$VERSION" --no-git-tag-version --allow-same-version
           npm run build
-          git diff --exit-code -- icons.json assets
-          test -z "$(git status --porcelain -- icons.json assets)"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898099+github-actions[bot]@users.noreply.github.com"
+          git add package.json package-lock.json icons.json assets
+          git commit -m "Release $VERSION"
+          git tag -a "v$VERSION" -m "$VERSION"
 
-      - name: Publish
+      - name: Stage on npm (approve it on npmjs.com)
+        run: npm stage publish --tag "${{ steps.version.outputs.npm_tag }}"
+
+      - name: Push the tag, move main, make the GitHub release, delete the branch
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          GH_TOKEN: ${{ github.token }}
         run: |
-          version=$(node -p 'require("./package.json").version')
-          case "$version" in
-            *-*) npm publish --tag next ;; # 0.2.0-beta.1 etc. stay off "latest"
-            *) npm publish ;;
-          esac
+          git push origin "v$VERSION" "HEAD:refs/heads/main"
+          gh release create "v$VERSION" --title "$VERSION" --generate-notes ${{ steps.version.outputs.prerelease }}
+          git push origin --delete "$GITHUB_REF_NAME"

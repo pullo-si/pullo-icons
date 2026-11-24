@@ -107,13 +107,20 @@ are generated and committed. How to draw and check an icon: [CONTRIBUTING.md](CO
 
 ## Release
 
-1. Set the new version: `npm version minor --no-git-tag-version` (or `patch`), run
-   `npm run build`, and commit.
-2. Push, then make a GitHub release with the tag `v<version>`, e.g. `v0.2.0`.
-3. `.github/workflows/release.yml` checks that the tag matches `package.json` and that
-   the committed `icons.json` and `assets/` match `src/`, then publishes to npm. npm
-   trusts this workflow (trusted publishing), so no token is stored anywhere. A version
-   with a suffix (`0.2.0-beta.1`) goes to the `next` tag, not `latest`.
+From an up-to-date `main`, push a branch named after the version:
+
+```bash
+git switch main && git pull
+git switch -c release/0.2.0 && git push -u origin release/0.2.0
+```
+
+`.github/workflows/release.yml` sets the version in `package.json`, rebuilds, commits,
+stages the package on npm, tags `v0.2.0`, moves `main` to the release commit, makes the
+GitHub release and deletes the branch. Then approve the staged version on npmjs.com
+(Staged Packages, with two-factor login); only then can it be installed. Afterwards
+`git switch main && git pull`. A version with a suffix (`0.2.0-beta.1`) goes to the
+`next` tag, not `latest`. npm trusts this workflow (trusted publishing), so no token is
+stored anywhere.
 
 ## Thanks
 
