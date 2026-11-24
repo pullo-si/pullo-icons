@@ -1,0 +1,26 @@
+# Weekly: has Phosphor shipped one of our icons? scripts/check-phosphor.mjs looks at the
+# Phosphor issues in each src/<name>/meta.json and at the latest @iconify-json/ph on npm,
+# and opens an issue "Phosphor may have shipped <name>" for each icon that needs a look
+# (not when one with that title is already open). Run it by hand from the Actions tab.
+name: Phosphor check
+
+on:
+  schedule:
+    - cron: "17 6 * * 1" # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - run: node scripts/check-phosphor.mjs --open-issues
+        env:
+          GITHUB_TOKEN: ${{ github.token }}

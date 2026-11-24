@@ -38,7 +38,8 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs && node scripts/preview.mjs",
-    "compare": "node scripts/compare.mjs"
+    "compare": "node scripts/compare.mjs",
+    "check-phosphor": "node scripts/check-phosphor.mjs"
   },
   "engines": {
     "node": ">=20"

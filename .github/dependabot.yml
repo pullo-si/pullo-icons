@@ -1,0 +1,12 @@
+# Weekly check for a new Phosphor release. A new @iconify-json/ph opens a PR, CI
+# (ci.yml) runs the build on it, and the build fails if Phosphor now has one of our
+# names: then deprecate ours (CONTRIBUTING.md) before merging.
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: weekly
+    allow:
+      - dependency-name: "@iconify-json/ph"
+    versioning-strategy: increase
