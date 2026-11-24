@@ -32,8 +32,8 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `calendar-clock` | #1026 | directions | Replaces `calendar-dots` for `$calendarClock` (schedule view). A recommended: clock badge bottom right |
-| `user-slash` | none | review | Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
+| `calendar-clock` | #1026 | directions | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `calendar-dots` for `$calendarClock` (schedule view). A recommended: clock badge bottom right |
+| `user-slash` | none | review | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
 
 ## Batch 3: slash and badge variants
 
@@ -78,7 +78,7 @@ ends at 120 like `file-html`.
 | `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | directions | B recommended |
 | `group`, `ungroup` | #950 | directions | A recommended |
 | `page-break` | #824 | review | The next page's slanted corner looks odd |
-| `table-of-contents` | #882 | directions | A recommended |
+| `table-of-contents` | #882 | directions | A recommended. In Phosphor's backlog ([#1001](https://github.com/phosphor-icons/homepage/issues/1001#issuecomment-4364848452)) |
 
 ## Batch 6: new drawings
 
@@ -124,7 +124,7 @@ Phosphor (names only; nothing drawn after them). The full list and runners-up ar
 | `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | review |
 | `layout-dashboard` | #617 | review |
 | `tags` | #464 (backlog) | directions |
-| `image-plus` | #1089 (backlog) | directions |
+| `image-plus` | #1089 (backlog, maybe next release) | directions |
 | `shopping-cart-plus` | #354 | directions |
 | `chart-area` | #878 | directions |
 

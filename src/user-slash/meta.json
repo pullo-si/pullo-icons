@@ -13,6 +13,7 @@
     "system"
   ],
   "phosphorRequest": null,
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971",
   "addedIn": "0.3.0",
   "neighbours": [
     "user",
