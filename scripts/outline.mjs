@@ -77,7 +77,10 @@ function paint(svg, { strokeWidth, file, circles }) {
         circles.push(...geometry.arcs);
       } else {
         const h = (strokeWidth ?? Number(el.paint["stroke-width"])) / 2;
-        shape = stroke(geometry.d, 2 * h);
+        const r = el.tag === "circle" ? Number(el.attrs.r) : 0;
+        // A circle no bigger than the half-stroke strokes to a solid disc. Skia's stroker
+        // would leave its inside contour as a hole, so draw the disc directly.
+        shape = el.tag === "circle" && r <= h ? PK.FromSVGString(geometryOf({ tag: "circle", attrs: { ...el.attrs, r: r + h } }).d) : stroke(geometry.d, 2 * h);
         // The circles a round stroke's outline can follow: both sides of every arc and
         // a cap or join around every point the centerline passes through.
         for (const { c, r } of geometry.arcs) circles.push({ c, r: r + h }, ...(r > h ? [{ c, r: r - h }] : []));
