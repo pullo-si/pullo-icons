@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "notification",
+    "unread",
+    "new",
+    "alert",
+    "badge",
+    "inbox",
+    "reminder"
+  ],
+  "categories": [
+    "communications",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/858",
+  "addedIn": "0.2.0",
+  "neighbours": [
+    "bell",
+    "bell-ringing",
+    "bell-slash",
+    "notification",
+    "chat-circle-dots"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's bell (0.14 % of its ink uncovered at regular before the cut), cut 48 units from the dot's centre, so the gap stays open at 16 px. The dot sits up and out at (208, 44), so the bell keeps a bit of its shoulder and the cut side doesn't read as an \"i\"."
+  }
+}

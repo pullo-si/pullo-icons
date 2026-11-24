@@ -1,0 +1,26 @@
+{
+  "tags": [
+    "clear search",
+    "reset zoom",
+    "no results",
+    "search off",
+    "cancel search",
+    "zoom"
+  ],
+  "categories": [
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/708",
+  "addedIn": "0.2.0",
+  "neighbours": [
+    "magnifying-glass",
+    "magnifying-glass-plus",
+    "magnifying-glass-minus",
+    "x-circle",
+    "funnel-simple-x"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Lens and handle are the centerlines of Phosphor's magnifying-glass and -plus (circle at 112, 112, r 80; handle to 224, 224). Not set as frame: Phosphor's outer lens arc is r 84.1 / 86.15 / 88.11 around (111.9, 111.9), a tenth of a unit off its own inner edge, which alone reads 0.7\u20131.4 % uncovered."
+  }
+}

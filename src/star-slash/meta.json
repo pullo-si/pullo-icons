@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "unfavorite",
+    "remove favorite",
+    "unstar",
+    "not starred",
+    "rating off",
+    "bookmark off"
+  ],
+  "categories": [
+    "games",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/226",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/226#issuecomment-3800717743",
+  "addedIn": "0.2.0",
+  "neighbours": [
+    "star",
+    "bell-slash",
+    "eye-slash",
+    "heart",
+    "bookmark-simple"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's star (its outline covers all but 0.16 % of Phosphor's ink at regular before the cut). As in bell-slash and eye-slash, the lower-left part runs into the slash and only the upper-right side has a gap: its cut ends sit 32 units from the slash's centerline. So the bottom-right point stays whole."
+  }
+}

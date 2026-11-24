@@ -1,0 +1,27 @@
+{
+  "tags": [
+    "collapse sidebar",
+    "hide sidebar",
+    "close panel",
+    "drawer",
+    "navigation",
+    "menu",
+    "layout"
+  ],
+  "categories": [
+    "design",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/518",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/518#issuecomment-3812945860",
+  "addedIn": "0.2.0",
+  "neighbours": [
+    "sidebar-simple",
+    "sidebar",
+    "layout",
+    "browser",
+    "caret-left"
+  ],
+  "frame": "sidebar-simple",
+  "notes": {}
+}

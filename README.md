@@ -22,6 +22,11 @@ Each icon comes in six weights, named the way Phosphor names them: `shield-user-
 | `clipboard-check` | Checklists, sessions, finished tasks | [homepage#596](https://github.com/phosphor-icons/homepage/issues/596). Phosphor [plans its own](https://github.com/phosphor-icons/homepage/issues/970#issuecomment-6956525818); ours is deprecated when it ships |
 | `check-circle-multiple` | Check all, approve all, mark all present | None yet |
 | `x-circle-multiple` | Dismiss all, reject all, mark all absent | None yet |
+| `file-json` | JSON files, data export and import, config | [homepage#655](https://github.com/phosphor-icons/homepage/issues/655) |
+| `star-slash` | Remove from favourites, not starred | [homepage#226](https://github.com/phosphor-icons/homepage/issues/226). In Phosphor's [backlog](https://github.com/phosphor-icons/homepage/issues/226#issuecomment-3800717743); ours is deprecated when theirs ships |
+| `bell-dot` | Unread notifications | [homepage#858](https://github.com/phosphor-icons/homepage/issues/858) |
+| `sidebar-simple-open`, `sidebar-simple-close` | Expand and collapse a sidebar | [homepage#518](https://github.com/phosphor-icons/homepage/issues/518). Phosphor [plans arrow variants](https://github.com/phosphor-icons/homepage/issues/518#issuecomment-3812945860) |
+| `magnifying-glass-x` | Clear a search, reset zoom | [homepage#708](https://github.com/phosphor-icons/homepage/issues/708) |
 
 ## Use
 

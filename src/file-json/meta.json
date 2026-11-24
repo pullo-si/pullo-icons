@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "json",
+    "data",
+    "config",
+    "api",
+    "javascript object notation",
+    "export",
+    "import",
+    "document"
+  ],
+  "categories": [
+    "technology & development",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/655",
+  "addedIn": "0.2.0",
+  "neighbours": [
+    "file-js",
+    "file-html",
+    "file-csv",
+    "file-ts",
+    "file-code"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "The page top and the letter layout follow Phosphor's file-html: frame from x 48 to 208, letters from 24 to 242 on the row y 152 to 208. The letters J and S follow file-js, O is file-doc's O made narrower, N follows file-png.",
+    "bold": "The page ends 4 units higher and the letters are narrower and further apart (J 20\u201352, S 84\u2013114, O 146\u2013184, N 216\u2013244), so 8 units stay between them, as Phosphor's file-html does in bold."
+  }
+}
