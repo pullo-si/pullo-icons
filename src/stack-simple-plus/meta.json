@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "add layer",
+    "new layer",
+    "add to stack",
+    "layers",
+    "stack",
+    "new",
+    "create"
+  ],
+  "categories": [
+    "design",
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/225",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "stack-simple",
+    "stack-plus",
+    "stack",
+    "stack-minus",
+    "map-pin-plus"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's stack-simple (0.24 % of its ink uncovered at regular before the cut) with stack-plus's plus: the chevron's right arm stops 16 units (in x) past its vertex, as stack-plus's last chevron does, and the plus (48 wide) sits at (208, 184), so its bottom lines up with the chevron's as in stack-plus. Its top arm keeps 17 units from the plane.",
+    "bold": "As Phosphor's stack-simple-bold, the plane moves up 4 and the chevron down 4; as in stack-plus-bold, the plus arms are 40 instead of 48 (plus at 208, 192)."
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "not secure",
+    "security failed",
+    "blocked",
+    "unprotected",
+    "threat",
+    "denied",
+    "unsafe",
+    "rejected"
+  ],
+  "categories": [
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "shield",
+    "shield-check",
+    "shield-plus",
+    "shield-warning",
+    "shield-slash",
+    "x-circle"
+  ],
+  "frame": "shield",
+  "notes": {
+    "drawing": "Phosphor's shield with an x 52 units wide on the centre shield-plus uses: four fifths of the plus, as x-circle is to plus-circle and as our magnifying-glass-x."
+  }
+}

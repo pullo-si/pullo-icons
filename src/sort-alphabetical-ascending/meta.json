@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "a-z",
+    "a to z",
+    "alphabetical",
+    "sort",
+    "order",
+    "ascending",
+    "abc",
+    "name"
+  ],
+  "categories": [
+    "editor",
+    "arrows"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/488",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "sort-ascending",
+    "sort-descending",
+    "text-aa",
+    "arrows-down-up",
+    "list-numbers"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Letters as in text-aa (the A's crossbar at 70 % of its height), 80 units tall and 72 wide, stacked with 32 between them; the arrow is sort-ascending's shaft and 40-unit head, run the full height. Both directions keep the arrow pointing down and swap the letters, so the icon reads top to bottom as A→Z or Z→A.",
+    "fill": "As arrows-vertical-fill: the arrowhead becomes a solid triangle, the letters stay lines (in a filled box, as sort-ascending-fill does, the A's counter closes up).",
+    "duotone": "Tints the square behind letters and arrow, cut along the arrowhead's right arm, as sort-ascending-duotone does.",
+    "bold": "The letters are 76 tall with 40 between them, and the A's crossbar sits at 79 % of its height: at full size the thicker strokes closed the A's counter and nearly joined the two letters."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "xml",
+    "markup",
+    "data",
+    "config",
+    "feed",
+    "sitemap",
+    "svg",
+    "export",
+    "document"
+  ],
+  "categories": [
+    "technology & development",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1039",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file-html",
+    "file-xls",
+    "file-md",
+    "file-csv",
+    "file-code"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "The page top follows Phosphor's three-letter file icons (file-xls, file-csv, file-png): it ends at y 112, the letters stand on y 152 to 208. X is file-xls's X (40 wide), M is file-md's M (stems 56 apart, V down to 192), L is file-xls's L (foot 28). Letters 28 apart: X 38–78, M 106–162, L 190–218.",
+    "bold": "As in Phosphor's file-xls-bold, the page ends at 108 and the outer letters move 4 out (X 34–74, L 194–222), so 8 units stay between the letters."
+  }
+}

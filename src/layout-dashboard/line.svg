@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+    <path d="M56 48H104a8 8 0 0 1 8 8V120a8 8 0 0 1-8 8H56a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8Z"/>
+    <path d="M56 160H104a8 8 0 0 1 8 8V200a8 8 0 0 1-8 8H56a8 8 0 0 1-8-8V168a8 8 0 0 1 8-8Z"/>
+    <path d="M152 48H200a8 8 0 0 1 8 8V88a8 8 0 0 1-8 8H152a8 8 0 0 1-8-8V56a8 8 0 0 1 8-8Z"/>
+    <path d="M152 128H200a8 8 0 0 1 8 8V200a8 8 0 0 1-8 8H152a8 8 0 0 1-8-8V136a8 8 0 0 1 8-8Z"/>
+  </g>
+</svg>

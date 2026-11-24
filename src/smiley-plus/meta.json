@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "add reaction",
+    "emoji picker",
+    "react",
+    "add emoji",
+    "emoticon",
+    "smile",
+    "feedback",
+    "happy"
+  ],
+  "categories": [
+    "communications",
+    "people"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1054",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "smiley",
+    "user-circle-plus",
+    "smiley-sticker",
+    "chat-circle",
+    "smiley-wink"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's smiley (0.13 % of its ink uncovered at regular before the cut) with the ring cut and the plus placed exactly as in user-circle-plus, so the two read as one family. That is also where reaction pickers put it (top right). Fill is smiley-fill bitten round the plus; duotone tints the whole disc, as user-circle-plus-duotone does.",
+    "bold": "The eyes are drawn as discs of radius 16 (smiley-bold's size): a radius-4 circle under a 24 stroke would leave a pinhole."
+  }
+}

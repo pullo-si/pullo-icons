@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "leading",
+    "line spacing",
+    "line height",
+    "spacing",
+    "typography",
+    "text",
+    "paragraph",
+    "format"
+  ],
+  "categories": [
+    "editor",
+    "design"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/527",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "text-align-left",
+    "text-indent",
+    "arrows-vertical",
+    "text-aa",
+    "paragraph"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The request's picture in Phosphor's parts: arrows-vertical's double arrow (32-unit heads) from 40 to 216, and three of text-indent's lines (y 64, 128, 192), starting at x 120 so the heads keep 16 units clear of them. The arrow runs past the first and last line, so it measures the lines rather than lists them.",
+    "fill": "As arrows-vertical-fill: the heads become solid triangles.",
+    "duotone": "Tints the block of lines, as text-indent-duotone does."
+  }
+}

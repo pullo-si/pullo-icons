@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "php",
+    "server",
+    "script",
+    "backend",
+    "wordpress",
+    "laravel",
+    "code",
+    "document"
+  ],
+  "categories": [
+    "technology & development",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/565",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file-py",
+    "file-html",
+    "file-js",
+    "file-ppt",
+    "file-code"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "The page top follows Phosphor's three-letter file icons (file-xls, file-ppt, file-png): it ends at y 112, the letters stand on y 152 to 208. P is file-ppt's P (bowl r 20, 36 wide), H is file-html's H (stems 36 apart) made 56 tall with its bar in the middle. P 46–82, H 110–146, P 174–210.",
+    "bold": "As in Phosphor's file-ppt-bold and file-png-bold, the page ends at 108 and the outer letters move 4 out (P 42–78, P 178–214), so 8 units stay between the letters."
+  }
+}

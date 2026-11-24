@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "page break",
+    "section break",
+    "new page",
+    "split",
+    "pagination",
+    "print",
+    "pdf",
+    "document"
+  ],
+  "categories": [
+    "editor",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/824",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file",
+    "file-dashed",
+    "files",
+    "scissors",
+    "file-text"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The request's first picture in Phosphor's parts: the foot of a page and the head of the next, both as wide as file (x 48 to 208, corners r 8), with a row of five dashes between them (32 long with their caps, 16 apart, x 16 to 240 outside). The lower page has file's corner as a 40-unit cut without the fold lines: at this height file's fold triangle closes up.",
+    "fill": "Both page parts solid, the dashes stay lines. The upper part's top edge sits at 24 like the line weights.",
+    "duotone": "Tints both page parts.",
+    "bold": "The dashes are 8 units shorter (same centres), so 16 units stay between them; at full length the thicker caps nearly joined them into a line."
+  }
+}

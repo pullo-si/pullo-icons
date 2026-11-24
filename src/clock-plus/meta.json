@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "add time",
+    "extend timer",
+    "more time",
+    "snooze",
+    "timer",
+    "add reminder",
+    "schedule",
+    "duration"
+  ],
+  "categories": [
+    "system",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/470",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "clock",
+    "clock-user",
+    "user-circle-plus",
+    "clock-countdown",
+    "timer"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's clock (0.10 % of its ink uncovered at regular before the cut) with the ring cut and the plus placed exactly as in user-circle-plus. The plus sits top right, clear of the hands (clock-user puts its person bottom right, but a person needs the larger space there). Fill is clock-fill bitten round the plus."
+  }
+}

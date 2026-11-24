@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "save",
+    "add bookmark",
+    "save for later",
+    "read later",
+    "favorite",
+    "reading list"
+  ],
+  "categories": [
+    "office",
+    "communications"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "bookmark-simple",
+    "bookmark",
+    "bookmarks-simple",
+    "folder-simple-plus",
+    "file-plus",
+    "calendar-plus"
+  ],
+  "frame": "bookmark-simple",
+  "notes": {
+    "drawing": "Phosphor's bookmark-simple with the plus of file-plus (24 units each way), 32 units below the top edge and the same above the notch. Built on bookmark-simple because the band of bookmark leaves only 80 units of height for a glyph."
+  }
+}

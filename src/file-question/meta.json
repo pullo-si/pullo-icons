@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "unknown file",
+    "unknown type",
+    "missing file",
+    "unrecognized",
+    "help",
+    "not found",
+    "unknown document"
+  ],
+  "categories": [
+    "office",
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/524",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file",
+    "file-plus",
+    "file-x",
+    "file-text",
+    "question",
+    "file-magnifying-glass"
+  ],
+  "frame": "file",
+  "notes": {
+    "drawing": "Phosphor's file with a question mark two thirds the size of Phosphor's question (hook 42 by 36), on the centre file-plus uses. Its top stays 12 units below the fold.",
+    "bold": "A different hook: an ellipse 44 by 36 that starts between 10 and 11 o'clock and has no straight stem, so it stays open with the 24-unit stroke (drawn like regular it closed into a blob). It sits 2 units left of centre, 8 units clear of the fold, which is 4 units bigger in bold. The fold's lines sit 4 units further in (x 148, y 92), as in Phosphor's bold file."
+  }
+}

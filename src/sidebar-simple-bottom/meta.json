@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "bottom panel",
+    "bottom bar",
+    "terminal",
+    "console",
+    "drawer",
+    "bottom sheet",
+    "layout",
+    "dock"
+  ],
+  "categories": [
+    "design",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/759",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "sidebar-simple",
+    "sidebar",
+    "layout",
+    "square-split-vertical",
+    "square-half-bottom",
+    "browser"
+  ],
+  "frame": "rectangle",
+  "notes": {
+    "drawing": "Phosphor's sidebar-simple with the divider lying down at y 152, so the panel is as thick (56 units) as the sidebar of sidebar-simple is wide. The frame check runs against rectangle."
+  }
+}

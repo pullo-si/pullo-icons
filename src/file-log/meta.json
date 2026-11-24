@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "log",
+    "logs",
+    "logging",
+    "server log",
+    "debug",
+    "history",
+    "events",
+    "document"
+  ],
+  "categories": [
+    "technology & development",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/697",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file-txt",
+    "file-doc",
+    "file-png",
+    "file-sql",
+    "file-text"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "The page top follows Phosphor's three-letter file icons (file-xls, file-doc, file-png): it ends at y 112, the letters stand on y 152 to 208. L is file-xls's L (foot 28), O is file-doc's O (rx 24, ry 28), G is file-png's G (same ellipse, top end at 60°, stem 16 right of its centre, bar 8 long). L 50–78, O 98–146, G 174–214: the L sits a little closer to the O because its top right is open.",
+    "bold": "As in Phosphor's file-png-bold, the page ends at 108, the outer letters move 4 out (L 46–74, G centre 202) and the G's bar shrinks to a 4-unit stub at y 188, so its counter stays open."
+  }
+}

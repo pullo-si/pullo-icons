@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "copied",
+    "copy done",
+    "copied to clipboard",
+    "duplicate",
+    "success",
+    "clipboard"
+  ],
+  "categories": [
+    "office",
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "copy",
+    "copy-simple",
+    "check-square",
+    "clipboard",
+    "user-check",
+    "check-square-offset"
+  ],
+  "frame": "copy",
+  "notes": {
+    "drawing": "Phosphor's copy with the check of user-check (48 by 32) centred in the front square."
+  }
+}

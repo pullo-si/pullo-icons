@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "approved",
+    "verified",
+    "validated",
+    "signed",
+    "done",
+    "document check",
+    "task",
+    "reviewed",
+    "accepted"
+  ],
+  "categories": [
+    "office",
+    "editor"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "file",
+    "file-plus",
+    "file-x",
+    "file-text",
+    "calendar-check",
+    "file-lock"
+  ],
+  "frame": "file",
+  "notes": {
+    "drawing": "Phosphor's file with the check of calendar-check at the place where file-plus and file-x have their glyph (centre 128, 152).",
+    "bold": "The fold's lines sit 4 units further in (x 148, y 92), as in Phosphor's bold file."
+  }
+}

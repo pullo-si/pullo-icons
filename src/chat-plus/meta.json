@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "new chat",
+    "new message",
+    "add comment",
+    "new conversation",
+    "compose",
+    "new thread",
+    "reply"
+  ],
+  "categories": [
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/877",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/698#issuecomment-3792326885",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "chat",
+    "chat-dots",
+    "chat-text",
+    "chat-slash",
+    "shield-plus",
+    "folder-plus"
+  ],
+  "frame": "chat",
+  "notes": {
+    "drawing": "Phosphor's chat with the plus of shield-plus (32 units each way) on the bubble's centre, where chat-dots has its middle dot. The arms are as long as chat-text's lines."
+  }
+}

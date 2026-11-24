@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "synced",
+    "verified",
+    "done",
+    "selected folder",
+    "approved",
+    "backup complete",
+    "directory"
+  ],
+  "categories": [
+    "office",
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "folder",
+    "folder-plus",
+    "folder-minus",
+    "folder-lock",
+    "folder-star",
+    "calendar-check"
+  ],
+  "frame": "folder",
+  "notes": {
+    "drawing": "Phosphor's folder with the check of calendar-check on the centre folder-plus uses (128, 144).",
+    "bold": "The tab is 4 units taller and its slope steeper, as in Phosphor's bold folder."
+  }
+}

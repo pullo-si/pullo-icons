@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "deafen",
+    "deafened",
+    "audio off",
+    "sound off",
+    "mute",
+    "listen",
+    "headset",
+    "music",
+    "unsync"
+  ],
+  "categories": [
+    "media",
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1041",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "headphones",
+    "speaker-slash",
+    "microphone-slash",
+    "bell-slash",
+    "headset"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's headphones (0.17 % of its ink uncovered at regular before the cut), with the bell-slash slash. The slash crosses the right ear cup near its lower-left corner. The rest of the cup stops 32 units from the slash; the corner itself is left out rather than run into the slash, where it was a short stub that read as a bump on it."
+  }
+}

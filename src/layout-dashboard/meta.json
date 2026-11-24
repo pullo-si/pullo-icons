@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "dashboard",
+    "overview",
+    "home",
+    "widgets",
+    "tiles",
+    "admin",
+    "masonry",
+    "analytics",
+    "panels"
+  ],
+  "categories": [
+    "design",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/617",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "squares-four",
+    "layout",
+    "grid-four",
+    "kanban",
+    "columns",
+    "rows"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The four tiles of Phosphor's squares-four (same outer size 40 to 216, same corners, same 16-unit gaps), with the heights changed to 80 and 48 so the two columns are offset.",
+    "bold": "The tiles are 4 units smaller towards the gaps, as in Phosphor's bold squares-four, so the gaps stay 16 units."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "upload folder",
+    "directory upload",
+    "parent folder",
+    "up one level",
+    "move up",
+    "export folder"
+  ],
+  "categories": [
+    "office",
+    "system",
+    "arrows"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/153",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "folder",
+    "folder-plus",
+    "folder-minus",
+    "file-arrow-up",
+    "cloud-arrow-up",
+    "folder-open"
+  ],
+  "frame": "folder",
+  "notes": {
+    "drawing": "Phosphor's folder with the arrow of file-arrow-up, moved up 8 units to the centre folder-plus uses.",
+    "bold": "The arrow is 8 units shorter (116 to 172), as file-arrow-up shortens its own in bold. The tab is 4 units taller and its slope steeper, as in Phosphor's bold folder."
+  }
+}

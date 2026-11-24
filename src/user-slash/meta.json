@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "inactive user",
+    "deactivate",
+    "disabled account",
+    "account off",
+    "suspended",
+    "blocked",
+    "person off"
+  ],
+  "categories": [
+    "people",
+    "system"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "user",
+    "user-minus",
+    "bell-slash",
+    "eye-slash",
+    "camera-slash"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's user (head r 64 at 128, 96; shoulders M32 216c19.37-33.47 54.55-56 96-56s76.63 22.53 96 56; 0.23 % of its ink uncovered at regular before the cut), cut by the slash as in bell-slash and eye-slash: the slash runs from (48, 40) to (208, 216); the parts on its lower-left side run into it, the head's upper-right arc ends 32 from its centerline. The right shoulder lies within 15 units of the slash all the way down, so the cut removes all of it and the slash stands in for it.",
+    "fill": "Phosphor's user-fill with a white band from the slash centerline to 24 out on the upper-right side, as bell-slash-fill; the duotone tint (the head, as user-duotone) leaves out the same band, as our star-slash does."
+  }
+}

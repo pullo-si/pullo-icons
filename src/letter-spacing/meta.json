@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "tracking",
+    "kerning",
+    "character spacing",
+    "letter spacing",
+    "spacing",
+    "typography",
+    "text",
+    "format"
+  ],
+  "categories": [
+    "editor",
+    "design"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1101",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "text-aa",
+    "text-t",
+    "text-a-underline",
+    "arrows-horizontal",
+    "arrows-out-line-horizontal"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "line-height turned on its side: text over an arrow along the axis it measures. The A follows text-a-underline (112 tall, crossbar at 71 %), the arrow is arrows-horizontal's with 32-unit heads, run from 24 to 232 so it reads wider than the letter. (Also tried: an A between two vertical bars, as some design tools do; at 16 px it read as a text cursor.)",
+    "fill": "As arrows-horizontal-fill: the heads become solid triangles.",
+    "duotone": "Tints the A's counter, as text-aa-duotone does."
+  }
+}

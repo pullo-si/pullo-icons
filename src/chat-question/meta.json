@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "help",
+    "support",
+    "ask",
+    "question",
+    "help request",
+    "support chat",
+    "faq",
+    "q&a",
+    "contact support"
+  ],
+  "categories": [
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/511",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "chat",
+    "chat-dots",
+    "chat-text",
+    "question",
+    "seal-question",
+    "lifebuoy"
+  ],
+  "frame": "chat",
+  "notes": {
+    "drawing": "Phosphor's chat with the question mark of Phosphor's question at five eighths of its size (the hook is an ellipse 40 by 34 instead of 64 by 56), so 16 units stay clear above and below it. The dot keeps Phosphor's size.",
+    "bold": "A different hook: an ellipse 50 by 38 that starts at 10 o'clock instead of 9 and has no straight stem, so it stays open with the 24-unit stroke (drawn like regular it closed into a blob). 8 units stay between hook and dot.",
+    "request": "#511 asks for a question mark in a callout; #1083 lists the same among chat variants."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "stop screen share",
+    "screen sharing off",
+    "display off",
+    "no signal",
+    "screen",
+    "desktop",
+    "computer",
+    "disconnected"
+  ],
+  "categories": [
+    "technology & development",
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1091",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "monitor",
+    "monitor-play",
+    "video-camera-slash",
+    "webcam-slash",
+    "device-mobile-slash"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's monitor (0.02 % of its ink uncovered at regular before the cut), with the bell-slash slash. The stand lies 41 units below the slash and stays whole.",
+    "bold": "The stand sits 4 units lower (y 228), as in Phosphor's monitor-bold."
+  }
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+    <path d="M40 56H216A8 8 0 0 1 224 64V192A8 8 0 0 1 216 200H40A8 8 0 0 1 32 192V64A8 8 0 0 1 40 56Z" fill="currentColor" stroke="currentColor"/>
+    <path d="M164 88H188A4 4 0 0 1 192 92V116A4 4 0 0 1 188 120H164A4 4 0 0 1 160 116V92A4 4 0 0 1 164 88Z" fill="#fff" stroke="#fff"/>
+    <g fill="none" stroke="#fff">
+      <path d="M128 88V168"/>
+      <path d="M160 160H192"/>
+      <path d="M64 112H96"/>
+      <path d="M64 144H96"/>
+    </g>
+  </g>
+</svg>

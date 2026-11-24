@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "forward 10 seconds",
+    "skip forward",
+    "ahead 10",
+    "fast forward",
+    "media",
+    "audio",
+    "video",
+    "player",
+    "seek"
+  ],
+  "categories": [
+    "media",
+    "arrows"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/734",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "arrow-clockwise",
+    "arrow-counter-clockwise",
+    "clock-counter-clockwise",
+    "number-circle-one",
+    "fast-forward"
+  ],
+  "frame": "arrow-clockwise",
+  "notes": {
+    "drawing": "arrow-clockwise's circle and arrowhead with \"10\" inside, 64 tall: the \"1\" as list-numbers draws it, the \"0\" an ellipse 40 wide, from y 106 to 166. The pair sits off centre, 4 units to the left of the circle's centre, so the \"1\"'s flag keeps 16 units from the circle and the \"0\" keeps 16 from the arrowhead's arm.",
+    "bold": "The numerals are 56 tall instead of 60 and sit 4 lower, the \"0\" is 36 wide instead of 40 and 4 units further from the \"1\", and the flag 12 wide: at full size the thicker strokes touched the arrowhead and closed the gap between the two numerals.",
+    "fill": "As arrow-clockwise-fill: the arrowhead becomes a solid triangle; the numerals stay lines so they stay legible."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "image off",
+    "no image",
+    "hide image",
+    "picture",
+    "photo",
+    "disabled",
+    "missing image",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "design"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/837",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/837#issuecomment-3733981728",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "image",
+    "camera-slash",
+    "video-camera-slash",
+    "eye-slash",
+    "images"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's image (its centerlines cover all but 0.01 % of its ink at regular before the cut), with the bell-slash slash: the lower-left part runs into the slash, the upper-right part stops 32 units from it. The big mountain's right slope ran 7 to 13 units from the slash, almost parallel, so it would have merged into it: its left slope now runs on into the slash, which becomes the mountain's other side (as camera-slash does with its lens). The small mountain would have been cut down to a line parallel to the slash (a second slash), so it is left out; the sun stays.",
+    "bold": "The sun sits at (160, 96) with radius 16, where Phosphor's image-bold has it (it moves 4 up and right in bold)."
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "tags": [
+    "remove bookmark",
+    "unsave",
+    "unbookmark",
+    "not saved",
+    "save off",
+    "favorite",
+    "reading list"
+  ],
+  "categories": [
+    "office",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/413",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "bookmark",
+    "bookmark-simple",
+    "bell-slash",
+    "push-pin-slash",
+    "eye-slash"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's bookmark (0.00 % of its ink uncovered at regular before the cut), with the bell-slash slash; the chevron is cut like the outline."
+  }
+}

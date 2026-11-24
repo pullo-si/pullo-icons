@@ -32,70 +32,101 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `calendar-clock` | #1026 | todo | Replaces `calendar-dots` for `$calendarClock` (schedule view) |
-| `user-slash` | none | todo | Replaces `user-minus` for `$accountOff` (set inactive) |
+| `calendar-clock` | #1026 | directions | Replaces `calendar-dots` for `$calendarClock` (schedule view). A recommended: clock badge bottom right |
+| `user-slash` | none | review | Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
 
 ## Batch 3: slash and badge variants
 
-| Icon | Request | Status |
-|---|---|---|
-| `image-slash` | #837 (4) | todo |
-| `map-pin-slash` | #825, #406 (4) | todo |
-| `music-notes-slash` | #822 (4) | todo |
-| `bookmark-slash` | #413 | todo |
-| `headphones-slash` | #1041 | todo |
-| `monitor-slash` | #1091 | todo |
-| `envelope-check`, `envelope-x` | #780 | todo |
-| `smiley-plus` | #1054 | todo |
-| `clock-plus` | #470 | todo |
-| `calendar-pencil` | #642 | todo |
-| `calendar-arrow-up`, `calendar-arrow-down` | #920 | todo |
-| Calendar reschedule (circular arrow) | #977 | todo |
-| `user-circle-star` | #370 | todo |
-| `stack-simple-plus` | #225 | todo |
+| Icon | Request | Status | Notes |
+|---|---|---|---|
+| `image-slash` | #837 (4) | review | Small mountain left out |
+| `map-pin-slash` | #825, #406 (4) | review | |
+| `music-notes-slash` | #822 (4) | directions | A recommended |
+| `bookmark-simple-slash`, `bookmark-slash` | #413 | review | Keep both or only `-simple`? |
+| `headphones-slash` | #1041 | review | |
+| `monitor-slash` | #1091 | review | |
+| `envelope-check`, `envelope-x` | #780 | directions | A recommended: badge bottom right |
+| `smiley-plus` | #1054 | review | Built like `user-circle-plus` |
+| `clock-plus` | #470 | review | |
+| `calendar-pencil` | #642 | directions | A recommended: pencil inside |
+| `calendar-arrow-in`, `calendar-arrow-out` | #920 | directions | B recommended. Phosphor has these names in its backlog |
+| `calendar-arrow-clockwise` (reschedule) | #977 | directions | A recommended; name to confirm |
+| `user-circle-star` | #370 | review | |
+| `stack-simple-plus` | #225 | review | May read as a check at 16 px |
 
 ## Batch 4: file types
 
 | Icon | Request | Status |
 |---|---|---|
-| `file-xml` | #1039 | todo |
-| `file-log` | #697 | todo |
-| `file-php` | #565 | todo |
+| `file-xml` | #1039 | review |
+| `file-log` | #697 | review |
+| `file-php` | #565 | review |
+
+The three end the page at y 112 like Phosphor's three-letter file icons; `file-json`
+ends at 120 like `file-html`.
 
 ## Batch 5: editor and layout UI
 
+| Icon | Request | Status | Notes |
+|---|---|---|---|
+| `sort-alphabetical-ascending`, `-descending` | #488 (5) | review | |
+| `replay-10`, `forward-10` | #734 (3) | review | |
+| `line-height` | #527 | review | |
+| `letter-spacing` | #1101 | review | |
+| `text-wrap`, `text-overflow` | #906 | directions | B recommended |
+| `bring-forward`, `send-backward`, `bring-to-front`, `send-to-back` | #686 | directions | B recommended |
+| `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | directions | B recommended |
+| `group`, `ungroup` | #950 | directions | A recommended |
+| `page-break` | #824 | review | The next page's slanted corner looks odd |
+| `table-of-contents` | #882 | directions | A recommended |
+
+## Batch 6: new drawings
+
+| Icon | Request | Status | Notes |
+|---|---|---|---|
+| `turtle` | #276 (9) | directions | |
+| `steak` | #662 (7) | directions | |
+| `satellite`, `satellite-dish` | #585 (7) | directions | |
+| `bee` | #850 (6) | directions | |
+| `rock` | #588 (6) | directions | |
+| `bow-and-arrow` | #647 (6) | directions | Phosphor: "slated for next release" (2026-11-24). Draw or skip? |
+| `whistle` | #530 (4) | directions | |
+| `dumpster` | #353 | directions | |
+| `helicopter` | #909 | directions | |
+| `restroom` | #466 | directions | Phosphor dislikes the gendered sign; B is a neutral WC sign |
+| `ethernet` | #863 | directions | |
+| `telescope` | #666 | directions | |
+| `passport` | #819 | review | The globe may read as a minus sign |
+| `license-plate` | #849 | directions | |
+| `postcard` | #862 | review | |
+| `postage-stamp` | #862 | directions | Phosphor's `stamp` is the rubber stamp |
+
+## Batch 7: icons other sets have and Phosphor lacks
+
+Picked by comparing Lucide, Tabler, Material Symbols, Heroicons and Remix Icon with
+Phosphor (names only; nothing drawn after them). The full list and runners-up are in
+`drafts/batch-7/list.md` (not committed).
+
 | Icon | Request | Status |
 |---|---|---|
-| `sort-alphabetical` (A–Z with arrow) | #488 (5) | todo |
-| `replay-10`, `forward-10` | #734 (3) | todo |
-| `line-height` | #527 | todo |
-| `letter-spacing` | #1101 | todo |
-| Text wrap on / off | #906 | todo |
-| Bring forward, send backward, to front, to back | #686 | todo |
-| Border top, right, bottom, left, none | #636 | todo |
-| Group / ungroup | #950 | todo |
-| `page-break` | #824 | todo |
-| Table of contents | #882 | todo |
-
-## Batch 6: new drawings (full direction rounds; maybe Fable 5.2)
-
-| Icon | Request |
-|---|---|
-| Fast / slow (`turtle`; `rabbit` exists) | #276 (9) |
-| `steak` | #662 (7) |
-| `satellite`, satellite dish | #585 (7) |
-| `bee` | #850 (6) |
-| `rock` | #588 (6) |
-| `bow-and-arrow` | #647 (6) |
-| `whistle` | #530 (4) |
-| `dumpster` | #353 |
-| `helicopter` | #909 |
-| `restroom` | #466 |
-| `ethernet` | #863 |
-| `telescope` | #666 |
-| `passport` | #819 |
-| `license-plate` | #849 |
-| Postcard, postage stamp | #862 |
+| `chat-plus` | #877 (backlog) | review |
+| `chat-question` | #511 | review |
+| `chat-warning` | #1083 | review |
+| `file-check` | none | review |
+| `file-question` | #524 | review |
+| `folder-check` | none | review |
+| `folder-arrow-up` | #153 | review |
+| `user-x` | #1098 (backlog) | review |
+| `copy-check` | none | review |
+| `caret-down-up` | #611 | review |
+| `bookmark-simple-plus`, `bookmark-simple-check` | none | review |
+| `shield-x` | none | review |
+| `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | review |
+| `layout-dashboard` | #617 | review |
+| `tags` | #464 (backlog) | directions |
+| `image-plus` | #1089 (backlog) | directions |
+| `shopping-cart-plus` | #354 | directions |
+| `chart-area` | #878 | directions |
 
 ## Parked: Phosphor said theirs is coming
 

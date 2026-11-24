@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "remove user",
+    "reject",
+    "unfollow",
+    "block",
+    "delete account",
+    "decline",
+    "kick",
+    "ban"
+  ],
+  "categories": [
+    "people"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1098",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/1098#issuecomment-7049824462",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "user",
+    "user-plus",
+    "user-minus",
+    "user-check",
+    "user-gear",
+    "x-circle"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Head and shoulders are the centerlines of Phosphor's user-plus, -minus and -check (head r 60 at 108, 100; the shoulders an arc of r 108.2 from 24, 200 to 192, 200). Not set as frame, because Phosphor has no icon with only this part.",
+    "drawing": "The x sits on the centre of user-plus's plus (224, 136) and is 40 units wide, five sixths of the plus, the way Phosphor's phone-x is smaller than phone-plus.",
+    "bold": "The x is 34 units wide and 2 units further left, as user-plus shortens its plus in bold to stay inside the grid."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "passport",
+    "travel",
+    "border",
+    "identity",
+    "id",
+    "document",
+    "visa",
+    "citizenship",
+    "immigration",
+    "customs"
+  ],
+  "categories": [
+    "maps & travel",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/819",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "book",
+    "identification-card",
+    "identification-badge",
+    "notebook",
+    "globe-simple"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "A closed booklet with the globe emblem and one line of lettering. The cover is the upright rounded rectangle Phosphor's file and book stand in (x 48 to 208, y 32 to 224, corner radius 8); no Phosphor icon is exactly that rectangle, so there is no frame check. The globe is a circle of radius 40 with an equator and one straight meridian: globe-simple's ellipse, made this small, closes up at 16 and 20 px.",
+    "bold": "The globe grows from radius 40 to 44 and sits 4 units lower, and the line below is shorter and 6 units lower. At radius 40 the four openings of the globe were only 16 units wide and filled in at 16 px."
+  }
+}

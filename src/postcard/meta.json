@@ -1,0 +1,34 @@
+{
+  "tags": [
+    "postcard",
+    "post",
+    "mail",
+    "greetings",
+    "holiday",
+    "travel",
+    "souvenir",
+    "letter",
+    "stamp",
+    "send"
+  ],
+  "categories": [
+    "communications",
+    "maps & travel",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/862",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "envelope",
+    "envelope-simple",
+    "identification-card",
+    "credit-card",
+    "image"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The written side of a postcard: message lines on the left, a divider, the stamp and one address line on the right. The card is the rectangle of Phosphor's envelope (x 32 to 224, y 56 to 200, corner radius 8); the envelope's flap lines are not part of it, so there is no frame check. Every gap is 16 units in regular.",
+    "bold": "The divider moves left to x 116 and the message lines get shorter, so the stamp can grow from 32 to 40 units and keep an opening; it also sits 4 units lower, and the address line follows. At the regular positions the stamp closed up and touched the divider.",
+    "fill": "The stamp is cut out as a solid square, as Phosphor's fills do with small frames."
+  }
+}

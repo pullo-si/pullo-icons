@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "collapse",
+    "fold",
+    "unfold less",
+    "contract",
+    "shrink",
+    "collapse all",
+    "chevron"
+  ],
+  "categories": [
+    "arrows"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/611",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "caret-up-down",
+    "caret-down",
+    "caret-up",
+    "caret-double-down",
+    "arrows-in-line-vertical",
+    "caret-line-up"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The two carets of Phosphor's caret-up-down, each turned over in place, so the icon keeps the same height and width (48 to 208 wide, 24 to 232 high).",
+    "duotone": "Phosphor's caret duotones draw closed triangles. The build makes duotone from the regular lines plus a tint, so ours has open carets over tinted triangles."
+  }
+}

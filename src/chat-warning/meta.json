@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "feedback",
+    "report",
+    "report message",
+    "failed message",
+    "error",
+    "alert",
+    "important",
+    "complaint",
+    "flag comment"
+  ],
+  "categories": [
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1083",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "chat",
+    "chat-dots",
+    "chat-text",
+    "shield-warning",
+    "warning-circle",
+    "seal-warning"
+  ],
+  "frame": "chat",
+  "notes": {
+    "drawing": "Phosphor's chat with the exclamation mark of shield-warning (a 40-unit line, the dot 36 units below its end), centred in the bubble.",
+    "bold": "The line is 8 units shorter (90 to 122) and the dot 2 units higher. shield-warning shortens its line in bold too; here 12 units stay between line and dot and 10 between the mark and the bubble.",
+    "request": "#1083 asks for chat variants with a question mark, plus, heart, exclamation mark, dot and code; #555 asks for a feedback icon."
+  }
+}

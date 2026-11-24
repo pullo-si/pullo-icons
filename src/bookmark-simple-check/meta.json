@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "saved",
+    "bookmarked",
+    "added",
+    "done",
+    "read",
+    "reading list"
+  ],
+  "categories": [
+    "office",
+    "communications"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "bookmark-simple",
+    "bookmark",
+    "bookmarks-simple",
+    "user-check",
+    "file-plus",
+    "calendar-check"
+  ],
+  "frame": "bookmark-simple",
+  "notes": {
+    "drawing": "Phosphor's bookmark-simple with a check 60 by 40 (between the check of user-check and that of calendar-check), on the same centre as bookmark-simple-plus.",
+    "bold": "The check is 51 by 34, so 14 units stay between it and the sides."
+  }
+}

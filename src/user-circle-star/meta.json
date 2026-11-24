@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "admin",
+    "administrator",
+    "favorite user",
+    "vip",
+    "featured",
+    "owner",
+    "starred contact",
+    "account",
+    "profile"
+  ],
+  "categories": [
+    "people",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/370",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "user-circle",
+    "user-circle-gear",
+    "user-circle-plus",
+    "user-circle-check",
+    "star"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's user-circle (0.14 % of its ink uncovered at regular before the cut). The star takes the gear's place in user-circle-gear, as the request asks: a five-pointed star with Phosphor's proportions (inner radius 0.485 of the outer), outer radius 30, centred at (202, 54), a little further out than the gear so its lower-left point keeps 13 units from the head. The ring stops 32 units from the star's centerline, as user-circle-gear's does round the gear.",
+    "bold": "The star is solid: at 24 its counter closes up anyway."
+  }
+}

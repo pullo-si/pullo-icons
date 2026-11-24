@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "right sidebar",
+    "inspector",
+    "details panel",
+    "right panel",
+    "properties",
+    "drawer",
+    "layout",
+    "aside"
+  ],
+  "categories": [
+    "design",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/759",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "sidebar-simple",
+    "sidebar",
+    "layout",
+    "square-split-horizontal",
+    "square-half",
+    "browser"
+  ],
+  "frame": "rectangle",
+  "notes": {
+    "drawing": "Phosphor's sidebar-simple mirrored: the divider is at x 168 instead of 88. The frame check runs against rectangle, which has the same outline."
+  }
+}

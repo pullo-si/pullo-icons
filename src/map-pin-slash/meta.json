@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "location off",
+    "no location",
+    "location unavailable",
+    "gps off",
+    "not found",
+    "address",
+    "geolocation",
+    "place"
+  ],
+  "categories": [
+    "maps & travel"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/825",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/825#issuecomment-3806243933",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "map-pin",
+    "map-pin-plus",
+    "gps-slash",
+    "eye-slash",
+    "bell-slash"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's map-pin (0.14 % of its ink uncovered at regular before the cut), with the bell-slash slash. The ring's centre lies 16 units on the upper-right side of the slash, so only its upper-right arc stays (stopping 32 units from the slash): the lower-left part would have been a D 16 units deep that fills in solid, so it is left out, as camera-slash leaves out the small part of its lens.",
+    "request": "Also answers homepage#406 (map pin with an x for a forbidden or invalid location); Phosphor answered there that a slashed map-pin is in its backlog."
+  }
+}
