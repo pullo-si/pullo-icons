@@ -49,13 +49,15 @@ the maintainer:
 - Restate visual feedback as an exact change before editing. A cropped screenshot is a
   precise bug report: fix that spot, don't redesign.
 
-## Status (0.1.0)
+## Status (0.1.0, on npm since 2026-11-24)
 
 - Icons: `shield-user` (homepage#550), `clipboard-check` (#596; Phosphor has it
   "slated for the next release", homepage#970, 2026-11-17, but hasn't shipped it; ours
   stays until theirs ships, then is deprecated), `check-circle-multiple` and
   `x-circle-multiple` (no request).
-- Next, each only with the maintainer's OK: first `npm publish` (npm account with 2FA,
-  then remove `"private": true`); trusted publishing from a GitHub Actions release
-  workflow, no stored token; post the drawings in the matching Phosphor requests; ask
-  Iconify to list the set once it has a few dozen icons (whole sets only, via an issue).
+- 0.1.0 was published by hand. Later releases: a GitHub release `v<version>` runs
+  `.github/workflows/release.yml`, which publishes through npm trusted publishing (no
+  stored token); the steps are in the README under Release.
+- Next, each only with the maintainer's OK: post the drawings in the matching Phosphor
+  requests; ask Iconify to list the set once it has a few dozen icons (whole sets only,
+  via an issue).

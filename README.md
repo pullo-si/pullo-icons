@@ -105,6 +105,16 @@ npm run compare    # checks in Chromium; once: npx playwright-core install chrom
 `src/<name>/` holds each icon's drawings and `meta.json`; `assets/` and `icons.json`
 are generated and committed. How to draw and check an icon: [CONTRIBUTING.md](CONTRIBUTING.md).
 
+## Release
+
+1. Set the new version: `npm version minor --no-git-tag-version` (or `patch`), run
+   `npm run build`, and commit.
+2. Push, then make a GitHub release with the tag `v<version>`, e.g. `v0.2.0`.
+3. `.github/workflows/release.yml` checks that the tag matches `package.json` and that
+   the committed `icons.json` and `assets/` match `src/`, then publishes to npm. npm
+   trusts this workflow (trusted publishing), so no token is stored anywhere. A version
+   with a suffix (`0.2.0-beta.1`) goes to the `next` tag, not `latest`.
+
 ## Thanks
 
 - [Phosphor Icons](https://phosphoricons.com) by Helena Zhang and Tobias Fried, whose

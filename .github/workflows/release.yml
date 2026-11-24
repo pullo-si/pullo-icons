@@ -1,0 +1,46 @@
+# Publishes to npm when a GitHub release is published. npm trusts this workflow
+# (trusted publishing, set up on npmjs.com for pullo-si/pullo-icons and release.yml),
+# so no token is stored anywhere; npm adds provenance on its own.
+name: Release
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+  id-token: write # lets npm verify that the publish comes from this workflow
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24 # ships npm 11.5.1 or later, which trusted publishing needs
+          registry-url: https://registry.npmjs.org
+
+      - name: The release tag matches package.json
+        run: |
+          version=$(node -p 'require("./package.json").version')
+          if [ "$GITHUB_REF_NAME" != "v$version" ]; then
+            echo "::error::Release tag $GITHUB_REF_NAME, but package.json says $version (expected tag v$version)."
+            exit 1
+          fi
+
+      - run: npm ci
+
+      - name: The committed icons.json and assets/ match src/
+        run: |
+          npm run build
+          git diff --exit-code -- icons.json assets
+          test -z "$(git status --porcelain -- icons.json assets)"
+
+      - name: Publish
+        run: |
+          version=$(node -p 'require("./package.json").version')
+          case "$version" in
+            *-*) npm publish --tag next ;; # 0.2.0-beta.1 etc. stay off "latest"
+            *) npm publish ;;
+          esac
