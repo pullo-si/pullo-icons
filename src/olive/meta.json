@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "olive",
+    "fruit",
+    "food",
+    "olive oil",
+    "mediterranean",
+    "harvest",
+    "garden",
+    "plant",
+    "vegetarian"
+  ],
+  "categories": [
+    "commerce",
+    "nature"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "orange",
+    "avocado",
+    "pepper",
+    "leaf",
+    "egg",
+    "acorn"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "After the Olivestep mark, without the legs: an olive tilted 20\u00b0 to the right (radii 60 and 78), a short stem from its top, and a leaf going up to the left, drawn as two circular arcs 16 units each side of its centerline. The fill keeps the stem as a line, as Phosphor's orange does; the duotone tints only the olive.",
+    "bold": "The leaf bulges 20 units each side instead of 16, so an 8-unit opening stays inside it (it closed up at 16)."
+  }
+}

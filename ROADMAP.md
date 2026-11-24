@@ -16,11 +16,17 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `file-json` | #655 (9) | review | Letters from `file-js` (J, S), `file-doc` (O), `file-png` (N) |
-| `star-slash` | #226 (7) | review | Slash as in `bell-slash`, `eye-slash`. In Phosphor's backlog, no date (`phosphorPlanned`) |
-| `bell-dot` | #858 (4) | review | Unread badge: small solid dot top right. Maybe `bell-simple-dot` too |
-| `sidebar-simple-open`, `sidebar-simple-close` | #518 (7) | review | `sidebar-simple` with a caret in the content area. Phosphor: "arrow variants to the backlog" (`phosphorPlanned`) |
-| `magnifying-glass-x` | #708 (3) | review | As `magnifying-glass-plus` / `-minus` |
+| `file-json` | #655 (9) | done | Letters from `file-js` (J, S), `file-doc` (O), `file-png` (N) |
+| `star-slash` | #226 (7) | done | Slash as in `bell-slash`, `eye-slash`. In Phosphor's backlog, no date (`phosphorPlanned`) |
+| `bell-dot` | #858 (4) | done | Unread badge: small solid dot top right. Maybe `bell-simple-dot` too |
+| `sidebar-simple-open`, `sidebar-simple-close` | #518 (7) | done | `sidebar-simple` with a caret in the content area. Phosphor: "arrow variants to the backlog" (`phosphorPlanned`) |
+| `magnifying-glass-x` | #708 (3) | done | As `magnifying-glass-plus` / `-minus` |
+
+## Our own (no Phosphor request)
+
+| Icon | Status | Notes |
+|---|---|---|
+| `olive` | done | The Olivestep mark without the legs |
 
 ## Batch 2: Olivestep's stand-ins
 

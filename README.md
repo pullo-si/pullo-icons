@@ -27,6 +27,7 @@ Each icon comes in six weights, named the way Phosphor names them: `shield-user-
 | `bell-dot` | Unread notifications | [homepage#858](https://github.com/phosphor-icons/homepage/issues/858) |
 | `sidebar-simple-open`, `sidebar-simple-close` | Expand and collapse a sidebar | [homepage#518](https://github.com/phosphor-icons/homepage/issues/518). Phosphor [plans arrow variants](https://github.com/phosphor-icons/homepage/issues/518#issuecomment-3812945860) |
 | `magnifying-glass-x` | Clear a search, reset zoom | [homepage#708](https://github.com/phosphor-icons/homepage/issues/708) |
+| `olive` | Olives, olive oil, Mediterranean food, harvest | None yet |
 
 ## Use
 
