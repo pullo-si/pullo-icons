@@ -1,7 +1,6 @@
 {
   "name": "pullo-icons",
   "version": "0.1.0",
-  "private": true,
   "description": "Extra icons in the style of Phosphor Icons, for the icons Phosphor doesn't have. Iconify JSON and plain SVG, six weights.",
   "license": "MIT",
   "author": "Andrej Rus",
