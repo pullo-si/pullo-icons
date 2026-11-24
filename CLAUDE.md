@@ -55,9 +55,11 @@ the maintainer:
   "slated for the next release", homepage#970, 2026-11-17, but hasn't shipped it; ours
   stays until theirs ships, then is deprecated), `check-circle-multiple` and
   `x-circle-multiple` (no request).
-- 0.1.0 was published by hand. Later releases: a GitHub release `v<version>` runs
-  `.github/workflows/release.yml`, which publishes through npm trusted publishing (no
-  stored token); the steps are in the README under Release.
+- 0.1.0 was published by hand. Later releases: the maintainer pushes `release/<version>`;
+  `.github/workflows/release.yml` bumps, builds, commits, runs `npm stage publish`
+  (trusted publishing, stage only: no `npm publish` permission), tags, fast-forwards
+  main, makes the GitHub release; the maintainer approves the staged version on
+  npmjs.com with 2FA. Steps in the README under Release.
 - Next, each only with the maintainer's OK: post the drawings in the matching Phosphor
   requests; ask Iconify to list the set once it has a few dozen icons (whole sets only,
   via an issue).
