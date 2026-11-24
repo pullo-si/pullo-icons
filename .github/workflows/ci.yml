@@ -1,0 +1,30 @@
+# On every PR and push to main: build, and check that the committed icons.json and
+# assets/ are what the build makes. The build also fails when Phosphor has one of our
+# names, so a Dependabot PR that bumps @iconify-json/ph shows any clash.
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npm run build
+      - name: icons.json and assets/ are up to date
+        run: |
+          if [ -n "$(git status --porcelain -- icons.json assets)" ]; then
+            git status --short -- icons.json assets
+            echo "::error::icons.json or assets/ differ from what npm run build makes. Run it and commit the result."
+            exit 1
+          fi

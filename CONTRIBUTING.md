@@ -107,6 +107,18 @@ coming. `neighbours` are the Phosphor icons it is compared with. `frame` is the
 Phosphor icon whose outline it reuses, or `null`. When Phosphor ships the icon, add
 `"deprecated": { "phosphor": "<their name>", "since": "<version>" }`.
 
+Two checks tell you when that happens:
+
+- Dependabot opens a PR when a new `@iconify-json/ph` comes out. CI builds it, and the
+  build fails if Phosphor now has one of our names: deprecate ours in that PR.
+- Every Monday the Phosphor check workflow runs `scripts/check-phosphor.mjs`. It looks
+  up the `phosphorRequest` and `phosphorPlanned` issues of every icon that isn't
+  deprecated and the latest `@iconify-json/ph` on npm, and opens an issue "Phosphor may
+  have shipped <name>" when a request is closed or the name appears. A closed request
+  can also be a duplicate or "not planned": then point `meta.json` at the request that
+  is still open. `GH_TOKEN=$(gh auth token) npm run check-phosphor` runs the same check
+  locally and only prints.
+
 ## 4. Check it
 
 ```bash
