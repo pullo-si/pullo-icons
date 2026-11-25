@@ -33,7 +33,7 @@ Each icon is a folder `src/<name>/`:
 | `line.svg` | The centerlines. Thin, light, regular and bold are made from it |
 | `fill.svg` | The fill weight, drawn separately |
 | `duotone.svg` | The tinted area of the duotone weight |
-| `thin.svg`, `light.svg`, `regular.svg`, `bold.svg` | Optional: a corrected drawing for one weight |
+| `thin.svg`, `light.svg`, `regular.svg`, `bold.svg` | Optional: a corrected drawing for one weight. The outer group's `stroke-width` becomes the weight's stroke; one set on a nested group or element is kept (`passport`'s bold keeps its globe at 16) |
 | `meta.json` | Tags, categories, the Phosphor request, notes |
 
 **`line.svg`** is drawn with strokes only, on Phosphor's grid:

@@ -26,7 +26,7 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "A closed booklet with a globe emblem and one short line of lettering. The cover is the upright rounded rectangle Phosphor's file and book stand in (x 48 to 208, y 32 to 224, corner radius 8); no Phosphor icon is exactly that rectangle, so there is no frame check. The globe is Phosphor's globe made smaller (radius 54 at 128,110): two parallels 25 above and below the centre and a meridian lens of two circular arcs, 19 wide on each side.",
-    "bold": "Bold keeps only the circle and the meridian lens: at stroke 24 there is no room for five lines, and every version with parallels or with the line of lettering filled in. Without the lettering the globe can grow to radius 58, centred, with a lens 20 wide on each side (arc radius 94.1), so its three openings stay 12 to 16 units clear."
+    "drawing": "A closed booklet with a globe emblem and one short line of lettering. The cover is the upright rounded rectangle Phosphor's file and book stand in (x 48 to 208, y 32 to 224, corner radius 8); no Phosphor icon is exactly that rectangle, so there is no frame check. The globe is Phosphor's globe at radius 52 (at 128,106) with its proportions: parallels a third of the radius above and below the centre, and a meridian lens from pole to pole, 0.37 of the radius wide on each side.",
+    "bold": "Only the cover and the line of lettering are bold (24). The globe keeps the regular stroke (16, a nested stroke-width the build keeps): at 24 its openings fill in, and every simplified bold globe read as an eye or a ball."
   }
 }

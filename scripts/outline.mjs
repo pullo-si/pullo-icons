@@ -32,6 +32,9 @@ export function parseDrawing(svg, file = "drawing") {
     const attrs = Object.fromEntries([...attrText.matchAll(/([\w:-]+)="([^"]*)"/g)].map((m) => m.slice(1)));
     const paint = { ...stack.at(-1) };
     for (const key of ["fill", "stroke", "stroke-width"]) if (key in attrs) paint[key] = attrs[key];
+    // A stroke width set below the outer group (on a nested group or an element) is
+    // kept in every weight; only the outer group's width is replaced per weight.
+    if ("stroke-width" in attrs && stack.length > 2) paint.fixed = true;
     for (const key of ["fill", "stroke"]) {
       const v = paint[key];
       if (v !== "none" && v !== "currentColor" && v !== "black" && !WHITE.has(v)) {
@@ -48,6 +51,8 @@ export function parseDrawing(svg, file = "drawing") {
 /**
  * Outlines a drawing into path data. `strokeWidth` replaces the drawing's own stroke
  * width: that is how one centerline drawing becomes thin, light, regular and bold.
+ * A width set on a nested group or an element stays (e.g. a bold override that keeps
+ * a fine detail at the regular stroke).
  * `minus` is a drawing whose outline is cut away at the end.
  */
 export function outline(svg, { strokeWidth, file = "drawing", minus } = {}) {
@@ -76,7 +81,7 @@ function paint(svg, { strokeWidth, file, circles }) {
         shape = el.tag === "line" ? PK.NewPath() : PK.FromSVGString(geometry.d);
         circles.push(...geometry.arcs);
       } else {
-        const h = (strokeWidth ?? Number(el.paint["stroke-width"])) / 2;
+        const h = (el.paint.fixed ? Number(el.paint["stroke-width"]) : strokeWidth ?? Number(el.paint["stroke-width"])) / 2;
         const r = el.tag === "circle" ? Number(el.attrs.r) : 0;
         // A circle no bigger than the half-stroke strokes to a solid disc. Skia's stroker
         // would leave its inside contour as a hole, so draw the disc directly.
