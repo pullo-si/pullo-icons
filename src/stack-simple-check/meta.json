@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "layer done",
+    "layer saved",
+    "stack",
+    "layers",
+    "check",
+    "done",
+    "complete",
+    "verified",
+    "approved"
+  ],
+  "categories": [
+    "design",
+    "editor"
+  ],
+  "phosphorRequest": null,
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "stack-simple",
+    "stack-plus",
+    "stack",
+    "user-check",
+    "calendar-check"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Built like stack-simple-plus: Phosphor's stack-simple with the chevron's right arm stopped 16 units past its vertex. The check is user-check's (16 down, 32 up, 48 wide), its vertex on the chevron's bottom line (y 208).",
+    "bold": "As Phosphor's stack-simple-bold, the plane moves up 4 and the chevron down 4; the check moves down 4 with the chevron and keeps its size."
+  }
+}

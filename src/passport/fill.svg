@@ -2,10 +2,11 @@
   <g stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
     <path d="M56 32H200A8 8 0 0 1 208 40V216A8 8 0 0 1 200 224H56A8 8 0 0 1 48 216V40A8 8 0 0 1 56 32Z" fill="currentColor" stroke="currentColor"/>
     <g fill="none" stroke="#fff">
-      <circle cx="128" cy="104" r="40"/>
-      <path d="M88 104H168"/>
-      <path d="M128 64V144"/>
-      <path d="M96 184H160"/>
+      <circle cx="128" cy="110" r="54"/>
+      <path d="M128 56A86.24 86.24 0 0 0 128 164A86.24 86.24 0 0 0 128 56Z"/>
+      <path d="M80.14 85H175.86"/>
+      <path d="M80.14 135H175.86"/>
+      <path d="M104 196H152"/>
     </g>
   </g>
 </svg>

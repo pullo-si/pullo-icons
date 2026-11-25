@@ -42,7 +42,7 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 | `image-slash` | #837 (4) | review | Small mountain left out |
 | `map-pin-slash` | #825, #406 (4) | review | |
 | `music-notes-slash` | #822 (4) | directions | A recommended |
-| `bookmark-simple-slash`, `bookmark-slash` | #413 | review | Keep both or only `-simple`? |
+| `bookmark-simple-slash` | #413 | review | Only the simple one kept (2026-11-25) |
 | `headphones-slash` | #1041 | review | |
 | `monitor-slash` | #1091 | review | |
 | `envelope-check`, `envelope-x` | #780 | directions | A recommended: badge bottom right |
@@ -52,7 +52,8 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 | `calendar-arrow-in`, `calendar-arrow-out` | #920 | directions | B recommended. Phosphor has these names in its backlog |
 | `calendar-arrow-clockwise` (reschedule) | #977 | directions | A recommended; name to confirm |
 | `user-circle-star` | #370 | review | |
-| `stack-simple-plus` | #225 | review | May read as a check at 16 px |
+| `stack-simple-plus` | #225 | review | |
+| `stack-simple-check` | none | review | Added 2026-11-25 |
 
 ## Batch 4: file types
 
@@ -96,7 +97,7 @@ ends at 120 like `file-html`.
 | `restroom` | #466 | directions | Phosphor dislikes the gendered sign; B is a neutral WC sign |
 | `ethernet` | #863 | directions | |
 | `telescope` | #666 | directions | |
-| `passport` | #819 | review | The globe may read as a minus sign |
+| `passport` | #819 | review | Globe redrawn with parallels and a lens (2026-11-25) |
 | `license-plate` | #849 | directions | |
 | `postcard` | #862 | review | |
 | `postage-stamp` | #862 | directions | Phosphor's `stamp` is the rubber stamp |
@@ -118,7 +119,7 @@ Phosphor (names only; nothing drawn after them). The full list and runners-up ar
 | `folder-arrow-up` | #153 | review |
 | `user-x` | #1098 (backlog) | review |
 | `copy-check` | none | review |
-| `caret-down-up` | #611 | review |
+| `caret-down-up` | #611 | review | Carets enlarged to caret-down size (2026-11-25) |
 | `bookmark-simple-plus`, `bookmark-simple-check` | none | review |
 | `shield-x` | none | review |
 | `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | review |

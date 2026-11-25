@@ -22,11 +22,11 @@
     "identification-card",
     "identification-badge",
     "notebook",
-    "globe-simple"
+    "globe"
   ],
   "frame": null,
   "notes": {
-    "drawing": "A closed booklet with the globe emblem and one line of lettering. The cover is the upright rounded rectangle Phosphor's file and book stand in (x 48 to 208, y 32 to 224, corner radius 8); no Phosphor icon is exactly that rectangle, so there is no frame check. The globe is a circle of radius 40 with an equator and one straight meridian: globe-simple's ellipse, made this small, closes up at 16 and 20 px.",
-    "bold": "The globe grows from radius 40 to 44 and sits 4 units lower, and the line below is shorter and 6 units lower. At radius 40 the four openings of the globe were only 16 units wide and filled in at 16 px."
+    "drawing": "A closed booklet with a globe emblem and one short line of lettering. The cover is the upright rounded rectangle Phosphor's file and book stand in (x 48 to 208, y 32 to 224, corner radius 8); no Phosphor icon is exactly that rectangle, so there is no frame check. The globe is Phosphor's globe made smaller (radius 54 at 128,110): two parallels 25 above and below the centre and a meridian lens of two circular arcs, 19 wide on each side.",
+    "bold": "Bold keeps only the circle and the meridian lens: at stroke 24 there is no room for five lines, and every version with parallels or with the line of lettering filled in. Without the lettering the globe can grow to radius 58, centred, with a lens 20 wide on each side (arc radius 94.1), so its three openings stay 12 to 16 units clear."
   }
 }

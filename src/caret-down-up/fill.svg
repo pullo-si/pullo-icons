@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <g stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
-    <path d="M80 32h96l-48 48Z" fill="currentColor" stroke="currentColor"/>
-    <path d="M80 224h96l-48-48Z" fill="currentColor" stroke="currentColor"/>
+    <path d="M56 32h144l-72 72Z" fill="currentColor" stroke="currentColor"/>
+    <path d="M56 224h144l-72-72Z" fill="currentColor" stroke="currentColor"/>
   </g>
 </svg>
