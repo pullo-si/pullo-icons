@@ -1,16 +1,16 @@
 {
   "tags": [
-    "wrap",
-    "text wrap",
-    "word wrap",
-    "line wrap",
-    "soft wrap",
-    "editor",
-    "text",
     "no wrap",
     "wrap off",
     "nowrap",
-    "unwrap"
+    "unwrap",
+    "word wrap off",
+    "soft wrap off",
+    "text wrap",
+    "word wrap",
+    "line wrap",
+    "editor",
+    "text"
   ],
   "categories": [
     "editor"
