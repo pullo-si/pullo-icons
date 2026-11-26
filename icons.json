@@ -15,8 +15,11 @@
     },
     "samples": [
       "shield-user",
-      "clipboard-check",
-      "check-circle-multiple"
+      "bell-dot",
+      "file-json",
+      "calendar-pencil",
+      "layout-dashboard",
+      "bee"
     ],
     "height": 24,
     "category": "UI Other / Mixed Grid",
