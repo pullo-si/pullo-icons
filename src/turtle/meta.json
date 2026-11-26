@@ -25,8 +25,8 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "Side view, direction A as sketched in round 1: a shell dome on a flat base, the head a pill held low and forward with its underside in line with the base, two legs and a short tail. The dome is half an ellipse (168 wide, 112 high, as cubics) instead of the sketch's half circle, so the turtle stands y 32 to 200 outside the stroke (the sketch was 120 units tall beside rabbit's 232). The legs are stubs 40 long that taper from 40 (back leg 36) to 24 units and splay outwards (back leg backwards, front leg forwards), so they read as legs and not as wheels. Round 2's raised head and rim line were dropped: with the rim, the round feet read as a little car at 16 px.",
-    "bold": "No override: at 24 the legs close up into solid tapered stubs, which still read as legs, and the head keeps a 16-unit opening.",
+    "drawing": "Side view, the round-1 sketch A as it was: a half-circle shell (radius 76) on a flat base that runs out into a short tail on the left, a pill head (40 high) straight out to the right with its underside on the base, and two short square legs (32 wide, rounded corners of 8) under the shell. The maintainer chose this flat sketch over taller versions with a raised head or splayed legs (rounds 2 and 3). Only moved 4 right and 8 up, so the ink sits centred on the grid (x 14 to 240, y 68 to 188).",
+    "bold": "No override: at 24 the legs and the head keep 8 and 16-unit openings and the gap between the legs stays 16.",
     "fill": "Shell, head and legs solid; the tail stays a line.",
     "duotone": "Only the shell is tinted."
   }
