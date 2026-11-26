@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "mail sent",
+    "message read",
+    "email verified",
+    "delivered",
+    "confirmed",
+    "inbox",
+    "done"
+  ],
+  "categories": [
+    "communications"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/780",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "envelope",
+    "envelope-simple",
+    "calendar-check",
+    "user-circle-check",
+    "phone-x"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's envelope, cut so the frame's ends sit 32 units from the badge's centerline: 16 stay clear at regular, 8 in bold. The badge sits at the bottom right, so the flap keeps its whole V.",
+    "drawing": "A check 48 wide (176 to 224) at the bottom right, its arms at 45° like Phosphor's checks.",
+    "fill": "envelope-fill with a white band 24 units round the badge, then the badge as a line, as bell-dot cuts the bell round its dot.",
+    "duotone": "The flap is tinted as in envelope-duotone."
+  }
+}

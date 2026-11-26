@@ -32,7 +32,7 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `calendar-clock` | #1026 | directions | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `calendar-dots` for `$calendarClock` (schedule view). A recommended: clock badge bottom right |
+| `calendar-clock` | #1026 | review | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `calendar-dots` for `$calendarClock` (schedule view). B picked; bold clock at 16 |
 | `user-slash` | none | review | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
 
 ## Batch 3: slash and badge variants
@@ -41,16 +41,16 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 |---|---|---|---|
 | `image-slash` | #837 (4) | review | Small mountain left out |
 | `map-pin-slash` | #825, #406 (4) | review | |
-| `music-notes-slash` | #822 (4) | directions | A recommended |
+| `music-notes-slash` | #822 (4) | review | A picked. In Phosphor's backlog |
 | `bookmark-simple-slash` | #413 | review | Only the simple one kept (2026-11-25) |
 | `headphones-slash` | #1041 | review | |
 | `monitor-slash` | #1091 | review | |
-| `envelope-check`, `envelope-x` | #780 | directions | A recommended: badge bottom right |
+| `envelope-check`, `envelope-x` | #780 | review | A picked |
 | `smiley-plus` | #1054 | review | Built like `user-circle-plus` |
 | `clock-plus` | #470 | review | |
-| `calendar-pencil` | #642 | directions | A recommended: pencil inside |
-| `calendar-arrow-in`, `calendar-arrow-out` | #920 | directions | B recommended. Phosphor has these names in its backlog |
-| `calendar-arrow-clockwise` (reschedule) | #977 | directions | A recommended; name to confirm |
+| `calendar-pencil` | #642 | review | A picked; bold pencil at 20 |
+| `calendar-arrow-in`, `calendar-arrow-out` | #920 | review | B picked. In Phosphor's backlog |
+| `calendar-arrow-clockwise` (reschedule) | #977 | review | A picked |
 | `user-circle-star` | #370 | review | |
 | `stack-simple-plus` | #225 | review | |
 | `stack-simple-check` | none | review | Added 2026-11-25 |
@@ -74,33 +74,33 @@ ends at 120 like `file-html`.
 | `replay-10`, `forward-10` | #734 (3) | review | |
 | `line-height` | #527 | review | |
 | `letter-spacing` | #1101 | review | |
-| `text-wrap`, `text-overflow` | #906 | directions | B recommended |
-| `bring-forward`, `send-backward`, `bring-to-front`, `send-to-back` | #686 | directions | B recommended |
-| `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | directions | B recommended |
-| `group`, `ungroup` | #950 | directions | A recommended |
+| `text-wrap`, `text-wrap-slash`, `text-overflow` | #906 | review | A's pair plus B's margin version |
+| `bring-forward`, `send-backward`, `bring-to-front`, `send-to-back` | #686 | review | B picked |
+| `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | review | A picked, dashes spaced wider |
+| `group`, `ungroup` | #950 | review | A picked |
 | `page-break` | #824 | review | The next page's slanted corner looks odd |
-| `table-of-contents` | #882 | directions | A recommended. In Phosphor's backlog ([#1001](https://github.com/phosphor-icons/homepage/issues/1001#issuecomment-4364848452)) |
+| `table-of-contents` | #882 | review | A picked. In Phosphor's backlog ([#1001](https://github.com/phosphor-icons/homepage/issues/1001#issuecomment-4364848452)) |
 
 ## Batch 6: new drawings
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `turtle` | #276 (9) | directions | |
-| `steak` | #662 (7) | directions | |
-| `satellite`, `satellite-dish` | #585 (7) | directions | |
-| `bee` | #850 (6) | directions | |
-| `rock` | #588 (6) | directions | |
-| `bow-and-arrow` | #647 (6) | directions | Phosphor: "slated for next release" (2026-11-24). Draw or skip? |
-| `whistle` | #530 (4) | directions | |
-| `dumpster` | #353 | directions | |
-| `helicopter` | #909 | directions | |
-| `restroom` | #466 | directions | Phosphor dislikes the gendered sign; B is a neutral WC sign |
-| `ethernet` | #863 | directions | |
-| `telescope` | #666 | directions | |
+| `turtle` | #276 (9) | review | |
+| `steak` | #662 (7) | review | |
+| `satellite`, `satellite-dish` | #585 (7) | review | |
+| `bee` | #850 (6) | review | |
+| `rock` | #588 (6) | review | |
+| `bow-and-arrow` | #647 (6) | review | Phosphor: "slated for next release" (2026-11-24); ours is a stand-in. String one step lighter than the bow |
+| `whistle` | #530 (4) | review | |
+| `dumpster` | #353 | review | |
+| `helicopter` | #909 | review | |
+| `restroom`, `wc` | #466 | review | Both: figures (`restroom`) and the neutral WC sign (`wc`) |
+| `ethernet` | #863 | review | |
+| `telescope` | #666 | review | |
 | `passport` | #819 | review | Globe redrawn with parallels and a lens (2026-11-25) |
-| `license-plate` | #849 | directions | |
+| `license-plate` | #849 | review | |
 | `postcard` | #862 | review | |
-| `postage-stamp` | #862 | directions | Phosphor's `stamp` is the rubber stamp |
+| `postage-stamp` | #862 | review | Phosphor's `stamp` is the rubber stamp |
 
 ## Batch 7: icons other sets have and Phosphor lacks
 
@@ -124,10 +124,10 @@ Phosphor (names only; nothing drawn after them). The full list and runners-up ar
 | `shield-x` | none | review |
 | `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | review |
 | `layout-dashboard` | #617 | review |
-| `tags` | #464 (backlog) | directions |
-| `image-plus` | #1089 (backlog, maybe next release) | directions |
-| `shopping-cart-plus` | #354 | directions |
-| `chart-area` | #878 | directions |
+| `tags` | #464 (backlog) | review |
+| `image-plus` | #1089 (backlog, maybe next release) | review |
+| `shopping-cart-plus` | #354 | review |
+| `chart-area` | #878 | review | A; a filled-area variant waits for a pick |
 
 ## Parked: Phosphor said theirs is coming
 

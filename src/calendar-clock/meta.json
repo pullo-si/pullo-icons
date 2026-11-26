@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "schedule",
+    "appointment",
+    "date and time",
+    "event time",
+    "reminder",
+    "deadline",
+    "booking",
+    "agenda"
+  ],
+  "categories": [
+    "office",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1026",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "calendar-blank",
+    "calendar-check",
+    "calendar-plus",
+    "calendar-dots",
+    "clock"
+  ],
+  "frame": "calendar-blank",
+  "notes": {
+    "drawing": "Phosphor's calendar (calendar-blank) with a clock in the body under the header line, centred at (128, 152) where calendar-check and calendar-plus centre their glyphs. Phosphor's clock at radius 40, hands up and right, 18 long. That leaves 6 units between the hands' caps and the ring and 8 between the ring and the header line or the bottom: tighter than Phosphor's 16, but shorter hands (14, as first sketched) read as a pie slice at 24 px, not as hands.",
+    "bold": "Maintainer: don't let the clock get too thick in bold. The frame is bold (24; rings 24 to 52 as in calendar-bold); the clock keeps the regular stroke (16, a nested stroke-width the build keeps) at radius 38 with 18-unit hands, so it stays 6 clear of the header line and the bottom. Tried: everything at 24 (ring and hands close into a disc with a notch), the ring at 20 with hands at 16 (the hands still blob); the regular-stroke clock is the only one that still reads as a clock at 16 px.",
+    "fill": "calendar-check-fill: solid box, open header, the clock's ring and hands cut out of the body."
+  }
+}

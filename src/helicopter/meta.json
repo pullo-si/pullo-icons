@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "helicopter",
+    "chopper",
+    "aircraft",
+    "rotor",
+    "flight",
+    "aviation",
+    "rescue",
+    "transport",
+    "travel"
+  ],
+  "categories": [
+    "maps & travel"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/909",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "airplane",
+    "airplane-tilt",
+    "drone",
+    "car-profile",
+    "bus"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A, side view: the cabin and tail boom as one outline, the cockpit window as a quarter of the nose, main rotor and mast, a tail fin and skids on two struts.",
+    "fill": "The cabin is solid; the window's edges are cut as white lines, so the window is a separate solid piece, the way Phosphor's fills separate parts. Rotor, mast, fin and skids stay lines.",
+    "bold": "The tail boom is 8 units taller (y 100 to 140) and the fin 8 units longer, so the boom keeps a 16-unit opening; at the regular size only 8 stayed and it read as a solid bar."
+  }
+}

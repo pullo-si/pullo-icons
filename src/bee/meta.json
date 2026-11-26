@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "bee",
+    "honeybee",
+    "bumblebee",
+    "insect",
+    "honey",
+    "pollination",
+    "busy",
+    "nature",
+    "garden",
+    "sting"
+  ],
+  "categories": [
+    "nature"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/850",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "bug-beetle",
+    "butterfly",
+    "bug",
+    "bird",
+    "flower"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A, from above like Phosphor's bug-beetle and butterfly: an upright body (ellipse 76 by 124) with two stripes, a round head with two antennae, and a wing on each side, tilted 28 degrees. The body is drawn over the wings and the bottom of the head.",
+    "fill": "Body and head solid, the two stripes cut as white lines that stop 8 units inside the edge, so they do not cut into the wings where these meet the body. The wings stay lines, as the second object stays a line in cards-fill: solid wings either merged into the body or, cut apart from it, turned into two small fins.",
+    "duotone": "Wings and body are tinted.",
+    "bold": "The head is 2 units bigger (radius 22) and 4 units higher, so its opening stays open above the body at 24."
+  }
+}

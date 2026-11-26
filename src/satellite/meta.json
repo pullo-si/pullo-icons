@@ -1,0 +1,35 @@
+{
+  "tags": [
+    "satellite",
+    "orbit",
+    "space",
+    "gps",
+    "gnss",
+    "navigation",
+    "signal",
+    "telecommunications",
+    "solar panels",
+    "uplink"
+  ],
+  "categories": [
+    "communications",
+    "technology & development",
+    "maps & travel"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/585",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "planet",
+    "rocket",
+    "broadcast",
+    "globe-hemisphere-west",
+    "solar-panel"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "After the maintainer's reference, drawn level and turned 45 degrees: a body with a round top end (48 wide, 76 long, centre at 112,112), an arm through it to two panels (28 by 64, corner radius 8) 32 units from the body, a short neck to a half-disc dish (radius 20) at the lower right, and two signal arcs (radius 44 and 72, 80 degrees each) centred on the dish. The neck leaves 8 units between body and dish in regular.",
+    "bold": "The panels are 32 wide instead of 28 so an 8-unit opening stays inside them, and the outer arc is at radius 76 instead of 72 so 8 units stay between the arcs. The body and the arm gaps already keep 8 at stroke 24.",
+    "fill": "Body, panels and dish solid, arm, neck and arcs as lines, as in the reference.",
+    "duotone": "Body, panels and dish tinted."
+  }
+}

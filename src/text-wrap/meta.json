@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "wrap",
+    "text wrap",
+    "word wrap",
+    "line wrap",
+    "soft wrap",
+    "editor",
+    "text",
+    "wrap on"
+  ],
+  "categories": [
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/906",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "text-align-left",
+    "text-indent",
+    "arrow-u-down-left",
+    "text-t-slash",
+    "paragraph"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "One text block for text-wrap, text-wrap-slash and text-overflow: rows at y 64, 128 and 192 (text-align-left's spacing is 40; 64 leaves room for the curl), lines from x 40, the same short bottom line (40→72) and the same 24-unit arrowheads. The top line runs to 208; the middle line runs to 176 and curls (radius 32, outer edge on 208, so the block keeps one right edge) back along the bottom row to an arrowhead at x 120.",
+    "fill": "As text-align-left-fill: a filled rounded square with the glyph cut out in white (rows 80 / 128 / 176, curl radius 24, arrowhead arms 20).",
+    "duotone": "Tints the text block: under the top line, down the right edge and round the curl."
+  }
+}

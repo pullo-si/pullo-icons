@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <g stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
+    <path d="M48 40H208a8 8 0 0 1 8 8V208a8 8 0 0 1-8 8H48a8 8 0 0 1-8-8V48a8 8 0 0 1 8-8Z" fill="currentColor" stroke="currentColor"/>
+    <path d="M192 120V136M192 176V184A8 8 0 0 1 184 192H176M136 192H120M80 192H72A8 8 0 0 1 64 184V176M64 136V120" fill="none" stroke="#fff"/>
+    <path d="M64 80V72A8 8 0 0 1 72 64H184A8 8 0 0 1 192 72V80" fill="none" stroke="#fff"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "reschedule",
+    "recurring",
+    "repeat",
+    "postpone",
+    "move date",
+    "renew",
+    "schedule"
+  ],
+  "categories": [
+    "office",
+    "arrows"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/977",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "calendar-blank",
+    "calendar-check",
+    "calendar-plus",
+    "calendar-dots",
+    "arrow-clockwise"
+  ],
+  "frame": "calendar-blank",
+  "notes": {
+    "drawing": "Phosphor's calendar (calendar-blank) with Phosphor's arrow-clockwise inside at 0.4 of its size (arc radius 35.2). The head's arms are 24 long instead of the scaled 19.2: scaled, the head closed into a small triangle at 16 px. The circle is centred at (122, 152), left of the body's centre (128, 152), because the head sticks out to the right.",
+    "bold": "The frame is bold (24; rings 24 to 52 as in calendar-bold). The arrow is drawn at 20 (a nested stroke-width the build keeps), 0.38 of its size with 24-unit head arms, as calendar-pencil's pencil: at 24 the head closed into a blob and the circle came within a few units of the header line.",
+    "fill": "calendar-check-fill: solid box, open header, the arrow cut out of the body."
+  }
+}

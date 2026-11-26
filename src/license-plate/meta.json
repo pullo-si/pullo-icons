@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "license plate",
+    "number plate",
+    "registration",
+    "car",
+    "vehicle",
+    "parking",
+    "traffic",
+    "plate",
+    "licence"
+  ],
+  "categories": [
+    "maps & travel",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/849",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "credit-card",
+    "identification-card",
+    "car-profile",
+    "file-zip",
+    "password"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A: a plate (x 24 to 232, y 64 to 192, corner radius 8, credit-card's width) with the band on the left as on European plates, left empty: no country code. The characters are 12, drawn as Phosphor's number-one and number-two at the size of its file-type letters (56 high, round ends, 18 units apart at the narrowest), centred between the band and the right edge. Three characters (123) were tried: at 16 px they ran into each other and into the band.",
+    "fill": "Solid, with the band line and the characters cut out in white; the band becomes a separate strip, as the blue strip is on a real plate.",
+    "duotone": "Only the band is tinted, where a real plate has its blue strip."
+  }
+}

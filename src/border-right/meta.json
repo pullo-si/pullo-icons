@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "right border",
+    "border right",
+    "border",
+    "borders",
+    "cell border",
+    "table",
+    "outline",
+    "edge",
+    "stroke"
+  ],
+  "categories": [
+    "design",
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/636",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "square",
+    "selection",
+    "selection-background",
+    "rectangle-dashed",
+    "align-top"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Phosphor's selection square (40–216, 8-unit corners) with wider spacing: corner pieces reach 24 units along each side (selection: 32) and one 16-unit dash sits in each side's middle (selection: 32), so 40 units stay clear between dashes in regular and 32 in bold (selection: 24 in regular). The right side is one solid line, with its two corners.",
+    "fill": "As selection-fill: a filled rounded square with the frame cut out in white at 64–192 (corner pieces 16, middle dashes 16), the right side solid.",
+    "duotone": "Tints the square, as selection-duotone."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "telescope",
+    "astronomy",
+    "stars",
+    "observatory",
+    "space",
+    "stargazing",
+    "discover",
+    "explore",
+    "science",
+    "optics"
+  ],
+  "categories": [
+    "objects",
+    "technology & development"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/666",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "binoculars",
+    "planet",
+    "shooting-star",
+    "magnifying-glass",
+    "flask"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A: a tube pointing up to the right at 28 degrees on a three-legged tripod, with a wider lens hood at the far end and an eyepiece at the near end. The tube is drawn over the top of the tripod.",
+    "fill": "Tube, hood and eyepiece solid; the tripod stays lines."
+  }
+}

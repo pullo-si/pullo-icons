@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "check-out",
+    "departure",
+    "end date",
+    "booking",
+    "reservation",
+    "move out",
+    "schedule"
+  ],
+  "categories": [
+    "office",
+    "maps & travel"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/920",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/920#issuecomment-7087443059",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "calendar-blank",
+    "calendar-check",
+    "calendar-plus",
+    "sign-out",
+    "calendar-x"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's calendar (calendar-blank: 0.00 % of its ink uncovered in the line weights before the cut, as in calendar-clock), cut so the frame's ends sit 32 units from the arrow's centerline: 16 stay clear at regular, 8 in bold.",
+    "drawing": "The arrow goes out through the right side as sign-out's does: shaft from x 120 to 240 at the body's middle (y 152), head arms 28. Its tip reaches as far right as calendar-arrow-in's tail reaches left, a little past Phosphor's usual area, so the head clears the frame. Phosphor named these calendar-arrow-in / -out in its backlog.",
+    "bold": "The same drawing at 24; only the rings stop at y 52 as in calendar-bold.",
+    "fill": "calendar-fill with everything within 24 units of the arrow cut white (the head's whole triangle, so no dark notch stays between its arms), then the arrow as a line, as bell-dot cuts the bell round its dot."
+  }
+}

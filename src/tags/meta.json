@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "labels",
+    "categories",
+    "price tags",
+    "tagging",
+    "classify",
+    "keywords",
+    "sale",
+    "multiple tags"
+  ],
+  "categories": [
+    "commerce",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/464",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/464#issuecomment-3806619122",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "tag",
+    "tag-simple",
+    "bookmarks",
+    "files",
+    "folders"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Two of Phosphor's tag stacked as bookmarks stacks its two: the back tag 32 up and to the right, so the gap between the two top edges is 16 in regular (8 in bold), as in bookmarks. Each tag keeps Phosphor's tag proportions (square corner, edges 80, diagonal run 88: 0.83 of tag's 96 and 107.33) and corner radii; no frame check, as no Phosphor icon has this tag size. The back tag's far edge runs straight on into the front tag's tip edge (they are one line), so the front tip is a plain corner there instead of tag's rounded one. The hole is tag's dot (radius 12 in regular), 36 in from the corner.",
+    "bold": "The hole moves 4 units further in (to 70, 102) and is a solid disc of radius 16, as tag-bold moves its own; otherwise only 8 units would stay clear of the top edge.",
+    "fill": "As bookmarks-fill: the front tag solid with the hole cut out, the back tag stays a line. Duotone tints the back tag, as bookmarks, files and folders tint the object behind."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "area chart",
+    "graph",
+    "analytics",
+    "statistics",
+    "data",
+    "trend",
+    "stacked area",
+    "mountain chart"
+  ],
+  "categories": [
+    "finances",
+    "office"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/878",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "chart-line",
+    "chart-line-up",
+    "chart-bar",
+    "chart-scatter",
+    "chart-pie-slice"
+  ],
+  "frame": "chart-line",
+  "notes": {
+    "drawing": "Phosphor's chart-line (frame check passes: same axes and line) with the area under the line closed by one stroke from the line's end straight down to the end of the x axis.",
+    "fill": "As chart-bar-fill: the area solid, standing on the axes (not chart-line-fill's square, which would hide the area). Duotone tints the area under the line, not the whole chart square as chart-line-duotone does, because the area is what this icon shows."
+  }
+}

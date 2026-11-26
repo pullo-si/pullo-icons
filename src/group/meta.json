@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "group",
+    "objects",
+    "shapes",
+    "selection",
+    "combine",
+    "arrange",
+    "design",
+    "group objects"
+  ],
+  "categories": [
+    "design",
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/950",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "selection",
+    "selection-all",
+    "bounding-box",
+    "shapes",
+    "square"
+  ],
+  "frame": "selection",
+  "notes": {
+    "drawing": "Phosphor's selection, unchanged, around a square (72–120) and a circle (radius 24 at 160, 160): 16 units clear of the frame and of each other in regular, 8 in bold.",
+    "fill": "The frame stays a line; the two shapes are solid.",
+    "duotone": "Tints the two shapes."
+  }
+}

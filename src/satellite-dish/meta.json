@@ -1,0 +1,36 @@
+{
+  "tags": [
+    "satellite dish",
+    "dish",
+    "antenna",
+    "parabolic",
+    "receiver",
+    "tv",
+    "broadcast",
+    "signal",
+    "uplink",
+    "ground station"
+  ],
+  "categories": [
+    "communications",
+    "technology & development",
+    "media"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/585",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "cell-tower",
+    "broadcast",
+    "wifi-high",
+    "radio",
+    "television",
+    "lamp"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A from batch 6: a dish facing up and to the right on a stand. The dish is a half-disc (radius 84, turned 45 degrees, centre 128,112) built like the satellite's dish, with a feed arm 48 long ending in Phosphor's solid dot (radius 4 plus the stroke); the stand runs from the back of the dish (128,196) to a foot from x 84 to 172 at y 224. No signal arcs: the maintainer picked the direction without them, and with arcs it comes close to broadcast and wifi-high.",
+    "dot": "A zero-length line at the dot's centre (as in chat-warning) makes the browser paint the bold dot solid, so compare's outline check matches the build's solid disc.",
+    "fill": "Dish solid, feed arm, dot and stand as lines.",
+    "duotone": "The dish is tinted."
+  }
+}

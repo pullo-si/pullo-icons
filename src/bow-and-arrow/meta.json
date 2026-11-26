@@ -1,0 +1,37 @@
+{
+  "tags": [
+    "bow and arrow",
+    "bow",
+    "arrow",
+    "archery",
+    "archer",
+    "hunting",
+    "sagittarius",
+    "weapon",
+    "sport",
+    "rpg"
+  ],
+  "categories": [
+    "games",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/647",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/647#issuecomment-7117950818",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "sword",
+    "target",
+    "crosshair",
+    "arrow-up-right",
+    "knife",
+    "axe"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "After the maintainer's reference and the diagonal of batch-6 direction C, with fewer details: a bow arc (sagitta 64 over a string 184 long) bulging to the upper right, a straight string from (34.35,91.55) to (164.45,221.65), and an arrow from (40,216) to (216,40) crossing the string at its middle, with a chevron head (arms 48) and one chevron of fletching (arms 30 at 40 degrees).",
+    "string": "The string is drawn one weight lighter than the bow, as the maintainer asked, with a nested stroke-width the build keeps: light.svg (bow 12, string 8), regular.svg (16 / 12), bold.svg (24 / 16), and in fill.svg at 12. Thin keeps both at 8 (line.svg, no override): a 6-unit string (tried) is a 0.4 px line at 16 px and nearly disappears in an inactive grey, and Phosphor has no stroke lighter than 8.",
+    "fill": "Bow and shaft at 16, string at 12, head and fletching as solid triangles, as Phosphor's arrow fills do.",
+    "duotone": "The space between bow and string is tinted.",
+    "phosphorPlanned": "Phosphor's maintainer wrote on 2026-11-24 that bow-and-arrow is slated for their next release; when theirs ships, this one gets deprecated."
+  }
+}

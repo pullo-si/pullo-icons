@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "dumpster",
+    "skip",
+    "waste container",
+    "garbage",
+    "trash",
+    "rubbish",
+    "refuse",
+    "bin",
+    "recycling",
+    "waste"
+  ],
+  "categories": [
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/353",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "trash",
+    "trash-simple",
+    "shipping-container",
+    "package",
+    "shopping-cart"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "A wheeled waste container from the front, after the maintainer's reference: a trapezoid lid (y 28 to 60), a rim bar wider than the body (x 24 to 232, y 60 to 92), a body that narrows toward the bottom (x 44/212 at the top, 60/196 at y 184), two horizontal lines on the body and two wheels (radius 12) under it. The wheels overlap the body's bottom line, so they read as casters. Every gap is 16 units in regular, except the lines' gaps to the rim and the bottom (14). No Phosphor icon is this outline, so there is no frame check.",
+    "bold": "One body line (y 138) instead of two: at 24 the two lines and the body edges left only 4 to 6 units between them and closed up at 16 px.",
+    "fill": "Lid, rim and body are solid; 8-unit white cuts across the full width (y 56 and 100) set the rim off from lid and body, and the two body lines are cut out (moved to y 132 and 164 so the solid strips between them stay 16 units or more). The wheels are solid discs.",
+    "duotone": "Lid and body are tinted; the rim and wheels are not."
+  }
+}

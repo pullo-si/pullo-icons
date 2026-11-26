@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "edit event",
+    "edit date",
+    "reschedule",
+    "planner",
+    "schedule",
+    "appointment",
+    "edit"
+  ],
+  "categories": [
+    "office",
+    "system"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/642",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "calendar-blank",
+    "calendar-check",
+    "calendar-plus",
+    "calendar-dots",
+    "pencil-simple"
+  ],
+  "frame": "calendar-blank",
+  "notes": {
+    "drawing": "Phosphor's calendar (calendar-blank) with pencil-simple's pencil inside, as calendar-check keeps its check inside: a 45° pencil 31.11 units wide (centre to centre) in a 72-unit square, its band line 20 back from the end. The square is centred at (130, 151), a little right of and above the body's centre (128, 152), because the light tip pulls the eye down and left.",
+    "bold": "Maintainer: make the pencil a bit less thick in bold so it does not touch the bottom. The frame is bold (24; rings 24 to 52 as in calendar-bold); the pencil is drawn at 20 (a nested stroke-width the build keeps) in a 64-unit square centred at (130, 152), without its band line (at 20 the band closes the end up), so it keeps 10 clear of the header line and the bottom. At 24 its inside closed and its tip touched the bottom; at 16 it looked lighter than the bold frame.",
+    "fill": "calendar-check-fill: solid box, open header, the pencil cut out of the body."
+  }
+}

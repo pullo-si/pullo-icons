@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "turtle",
+    "tortoise",
+    "slow",
+    "reptile",
+    "animal",
+    "shell",
+    "pace",
+    "patience",
+    "wildlife",
+    "pet"
+  ],
+  "categories": [
+    "nature"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/276",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "rabbit",
+    "bird",
+    "cat",
+    "fish",
+    "bug-beetle"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Side view, direction A: a shell dome on a flat base, a pill head raised forward on its neck, two stubby feet and a short tail. The dome is half an ellipse (168 wide, 96 high, as cubics); the sketch's half circle was 120 units tall beside rabbit's 232, so the dome got taller, the head moved up and the feet got longer: it now spans y 48 to 200 (152 units), about as tall as Phosphor's car-profile and as wide as bird. One line across the shell (y 116) marks its rim; shell plates filled in at 16 px in round 1, this single line stays open (36 units to the base).",
+    "fill": "Solid, with the rim cut as a white band, the way bug-beetle-fill cuts its head off. The band runs out through the back of the shell but stops 8 units short of the front, so it doesn't cut into the neck. The tail stays a line.",
+    "duotone": "Only the shell is tinted."
+  }
+}

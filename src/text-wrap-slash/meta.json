@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "wrap",
+    "text wrap",
+    "word wrap",
+    "line wrap",
+    "soft wrap",
+    "editor",
+    "text",
+    "no wrap",
+    "wrap off",
+    "nowrap",
+    "unwrap"
+  ],
+  "categories": [
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/906",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "text-align-left",
+    "text-t-slash",
+    "arrow-u-down-left",
+    "eye-slash",
+    "paragraph"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "text-wrap with the bell-slash slash, (48,40) to (208,216). Every part on the lower-left side runs into the slash; every part on the upper-right side stops 32 units from its centerline (cut ends computed on the lines, the curl and the arrowhead). The slash crosses the three rows, so the top and middle lines each keep a short left piece; the curl keeps its upper half and the arrowhead's upper arm ends on the slash.",
+    "fill": "text-wrap-fill with image-slash-fill's cut: a white band 8–24 units on the slash's upper-right side, then the slash in currentColor.",
+    "duotone": "text-wrap's tint with a white band 0–24 units on the slash's upper-right side, as image-slash-duotone."
+  }
+}

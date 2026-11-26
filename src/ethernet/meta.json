@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "ethernet",
+    "rj45",
+    "lan",
+    "network",
+    "port",
+    "socket",
+    "cable",
+    "wired",
+    "internet",
+    "connection"
+  ],
+  "categories": [
+    "technology & development"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/863",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "square",
+    "sim-card",
+    "usb",
+    "plug",
+    "network"
+  ],
+  "frame": "square",
+  "notes": {
+    "drawing": "The RJ45 socket from the front, after the maintainer's reference: Phosphor's square as the frame, inside it the port's outline (a narrow tab on top, x 104 to 152; the wider body, x 72 to 184, y 112 to 176) with three contact teeth rising from the bottom edge (x 100, 128, 156). The port keeps 16 units from the frame at the sides; the teeth leave 12 units between them, the most the square allows (a bigger frame gave 16 but stood larger than Phosphor's square and blurred at 16 px).",
+    "bold": "Two teeth (x 108 and 148) instead of three: at 24 three teeth left 4 units between them and the port filled in.",
+    "fill": "The solid version, as in the reference: a solid square with the port cut out at its centerline and the three teeth solid (moved to x 96, 128, 160 so the slots between them are 16 units).",
+    "duotone": "The plate is tinted; the port opening is left clear."
+  }
+}

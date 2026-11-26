@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "whistle",
+    "referee",
+    "coach",
+    "sports",
+    "foul",
+    "alert",
+    "signal",
+    "sound",
+    "blow",
+    "lifeguard"
+  ],
+  "categories": [
+    "games",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/530",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "megaphone",
+    "siren",
+    "bell-ringing",
+    "soccer-ball",
+    "timer"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A, the referee's whistle from the side: round barrel with the pea, mouthpiece to the right, and the mouth (the slot where the sound comes out) on top where the two meet. Three short strokes fan out of the mouth for the sound, as siren's rays do; the whistle moved 28 units down from the sketch to make room for them.",
+    "fill": "Solid, with the mouth cut as a white line and the pea as a hole; the sound strokes stay lines.",
+    "bold": "The rays start 6 units further from the mouth (radius 50 to 70), so 8 units stay between them and the whistle. The pea is drawn as a disc of radius 16 without a stroke: the same size the build gives a radius-4 dot at 24, but the browser check strokes such a small circle with a hole in it."
+  }
+}

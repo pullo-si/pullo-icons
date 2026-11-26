@@ -1,0 +1,30 @@
+{
+  "tags": [
+    "overflow",
+    "text overflow",
+    "no wrap",
+    "nowrap",
+    "clip",
+    "truncate",
+    "editor",
+    "text"
+  ],
+  "categories": [
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/906",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "text-align-left",
+    "text-indent",
+    "arrow-u-down-left",
+    "text-t-slash",
+    "paragraph"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "One text block for text-wrap, text-wrap-slash and text-overflow: rows at y 64, 128 and 192 (text-align-left's spacing is 40; 64 leaves room for the curl), lines from x 40, the same short bottom line (40→72) and the same 24-unit arrowheads. A margin bar at x 168 (broken from 96 to 160, 16 units clear of the middle line); the top line stops at 136, 16 clear of the bar, and the middle line runs through the bar to an arrowhead at 224. The arrowhead's arm ends keep 17 units clear of the bar's ends in regular, 9 in bold.",
+    "fill": "As text-wrap-fill: the glyph in white inside a filled rounded square (bar at 144, arrowhead at 192).",
+    "duotone": "Tints the text block left of the margin bar."
+  }
+}

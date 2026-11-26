@@ -1,0 +1,31 @@
+{
+  "tags": [
+    "music off",
+    "mute",
+    "no music",
+    "silence",
+    "audio off",
+    "notes",
+    "sound off"
+  ],
+  "categories": [
+    "media"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/822",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/822#issuecomment-3902421126",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "music-notes",
+    "music-notes-plus",
+    "speaker-slash",
+    "bell-slash",
+    "microphone-slash"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's music-notes with the bell-slash slash: the lower-left parts run into the slash, the upper-right parts stop 32 units from it.",
+    "drawing": "The right note head's centre lies 14 units from the slash, so the slash cannot miss it. Its lower-left part would be a sliver against the slash, so only its upper-right arc (more than 32 out) stays, beside the stem.",
+    "fill": "music-notes-fill, with the right head kept only more than 24 out on the upper-right side, a white band from the slash to 24 out, then the slash (bell-slash-fill).",
+    "duotone": "The heads are tinted as in music-notes-duotone; the right one only where its arc stays."
+  }
+}

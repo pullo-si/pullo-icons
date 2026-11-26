@@ -1,0 +1,32 @@
+{
+  "tags": [
+    "add image",
+    "add photo",
+    "upload image",
+    "insert picture",
+    "new image",
+    "picture",
+    "photo",
+    "media"
+  ],
+  "categories": [
+    "media",
+    "design"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/1089",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "image",
+    "image-square",
+    "images",
+    "camera-plus",
+    "user-circle-plus"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's image (0.00 % of its ink uncovered at regular, 0.32 % at thin, before the cut). The plus is user-circle-plus's (48 units) centred on the top right corner at (208, 48); the frame is cut on a circle of radius 56 round it, so 16 units stay clear in regular and 8 in bold. Hills and sun stay where Phosphor has them.",
+    "bold": "The sun sits at (160, 96) with radius 16, where image-bold has it.",
+    "fill": "image-fill (sky solid, the hole under the hills as Phosphor draws it) bitten round the plus, which stays a line, as clock-plus-fill. Duotone is image-duotone's tint with the same bite."
+  }
+}

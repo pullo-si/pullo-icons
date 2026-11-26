@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "steak",
+    "meat",
+    "beef",
+    "food",
+    "grill",
+    "barbecue",
+    "bbq",
+    "butcher",
+    "restaurant",
+    "dinner",
+    "protein"
+  ],
+  "categories": [
+    "commerce"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/662",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "hamburger",
+    "cheese",
+    "pizza",
+    "bone",
+    "egg-crack"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "Direction A as sketched: a rib-eye cut with a round bone (radius 24) in the wide end and one line of fat running into the tail.",
+    "fill": "The bone is cut out as a round hole, as cheese-fill cuts its holes; the fat stays a white line.",
+    "bold": "The fat line is shorter and ends at (189,171) instead of (198,180): at 24 its end ran into the edge of the cut."
+  }
+}

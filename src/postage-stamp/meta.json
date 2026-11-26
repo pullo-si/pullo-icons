@@ -1,0 +1,34 @@
+{
+  "tags": [
+    "postage stamp",
+    "stamp",
+    "post",
+    "mail",
+    "postal",
+    "letter",
+    "philately",
+    "postage",
+    "envelope",
+    "send"
+  ],
+  "categories": [
+    "communications",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/862",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "stamp",
+    "envelope",
+    "ticket",
+    "image",
+    "seal"
+  ],
+  "frame": null,
+  "notes": {
+    "name": "Named postage-stamp because Phosphor's stamp is the rubber stamp.",
+    "drawing": "A landscape stamp after the maintainer's reference: the perforated edge is a rectangle (x 32 to 224, y 48 to 208) with semicircular bites of radius 16, three on the long sides and two on the short ones, an inner frame (x 80 to 176, y 96 to 160, 16 units from the bites) and a round mark in the middle. Four bites a side at radius 12 and 14 were tried: at 16 px they ran together into a grey border; three and two at radius 16 still read as perforation. The mark is a small circle (radius 4), so it is a solid dot in every weight: a ring inside the frame left 4 to 8 units on each side and closed up at 16 and 20 px.",
+    "bold": "The dot is a filled disc of radius 13 with no stroke (at 24 a stroked dot would be a 16-unit disc and touch the frame); it keeps 7 units from the frame. A stroked circle smaller than the half-stroke also renders with a hole in the browser, so compare could not check it. The rest is as in regular; the bites keep a 4-unit notch, which still reads as perforation.",
+    "fill": "The stamp is solid; the inner frame and the dot are cut out at regular width."
+  }
+}

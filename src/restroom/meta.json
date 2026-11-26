@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "restroom",
+    "toilet",
+    "bathroom",
+    "washroom",
+    "lavatory",
+    "wc",
+    "loo",
+    "men",
+    "women",
+    "facilities"
+  ],
+  "categories": [
+    "maps & travel",
+    "people"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/466",
+  "phosphorPlanned": "https://github.com/phosphor-icons/homepage/issues/466#issuecomment-3791706248",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "toilet",
+    "person",
+    "person-simple",
+    "users",
+    "elevator"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "The restroom door sign: a man (head, rounded torso, two legs) and a woman (head, dress, two legs) either side of a divider. Heads radius 18, every gap 16 units in regular. Phosphor's toilet already covers the fixture, so this is only the sign.",
+    "gendered": "Phosphor's maintainer wrote in the request that they \"don't love how this icon is gendered\" and put it in the backlog (phosphorPlanned). The neutral version is wc, shipped beside this one; restroom is the sign people asked for and the one on most doors."
+  }
+}

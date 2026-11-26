@@ -1,0 +1,29 @@
+{
+  "tags": [
+    "add to cart",
+    "add to basket",
+    "buy",
+    "shop",
+    "purchase",
+    "ecommerce",
+    "checkout",
+    "order"
+  ],
+  "categories": [
+    "commerce"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/354",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "shopping-cart",
+    "shopping-cart-simple",
+    "basket",
+    "shopping-bag",
+    "user-plus"
+  ],
+  "frame": null,
+  "notes": {
+    "frame": "Phosphor's shopping-cart (0.10 % of its ink uncovered at regular before the cut; its centerlines are the same in every line weight) without the basket's top edge, so the basket is open and user-plus's plus (48 units) drops into it, centred between the pole and the basket's right side. In bold 12 units stay clear above the basket bottom.",
+    "fill": "shopping-cart-fill (basket solid, wheels as rings) with the plus cut out at the basket's centre (140, 104): a solid basket can't be open, so fill shows the plus in the basket the way chat-plus-fill cuts its glyph. Duotone tints shopping-cart-duotone's basket area; the plus pokes above the tint."
+  }
+}

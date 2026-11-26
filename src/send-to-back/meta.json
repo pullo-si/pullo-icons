@@ -1,0 +1,34 @@
+{
+  "tags": [
+    "back",
+    "bottom",
+    "bottommost",
+    "lower to bottom",
+    "arrange",
+    "order",
+    "z-order",
+    "layer",
+    "layers",
+    "stack",
+    "depth"
+  ],
+  "categories": [
+    "design",
+    "editor"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/686",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "stack",
+    "stack-simple",
+    "copy",
+    "selection-foreground",
+    "selection-background"
+  ],
+  "frame": "stack",
+  "notes": {
+    "drawing": "Phosphor's stack: rhombus layers 192 wide and 112 tall (centerlines), 48 apart. All the way uses stack's three layers (80, 128, 176); the moved layer is solid (accepted by the maintainer): the bottom layer, drawn as the band of its rhombus that lies more than 32 units (centerline to centerline) below the layer above it, so 16 units stay clear of that layer's edge in regular (8 in bold) and the band's ends are rounded.",
+    "fill": "The same drawing: the moved layer is already solid, and filling the other layers would hide which one moved.",
+    "duotone": "Tints the layers that didn't move."
+  }
+}
