@@ -49,12 +49,11 @@ the maintainer:
 - Restate visual feedback as an exact change before editing. A cropped screenshot is a
   precise bug report: fix that spot, don't redesign.
 
-## Status (0.1.0, on npm since 2026-11-24)
+## Status (0.2.0 on npm since 2026-11-24; 0.3.0 ready, 94 icons)
 
-- Icons: `shield-user` (homepage#550), `clipboard-check` (#596; Phosphor has it
-  "slated for the next release", homepage#970, 2026-11-17, but hasn't shipped it; ours
-  stays until theirs ships, then is deprecated), `check-circle-multiple` and
-  `x-circle-multiple` (no request).
+- Icons: the README table lists them all with their Phosphor requests; ROADMAP.md has
+  the batches. Icons Phosphor has in its backlog carry `phosphorPlanned` and are
+  deprecated when theirs ships (e.g. `clipboard-check`, homepage#970).
 - 0.1.0 was published by hand. Later releases: the maintainer pushes `release/<version>`;
   `.github/workflows/release.yml` bumps, builds, commits, runs `npm stage publish`
   (trusted publishing, stage only: no `npm publish` permission), tags, fast-forwards

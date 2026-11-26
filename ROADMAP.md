@@ -32,36 +32,36 @@ Status: `todo` · `directions` (waiting for a pick) · `drawing` · `review` · 
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `calendar-clock` | #1026 | review | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `calendar-dots` for `$calendarClock` (schedule view). B picked; bold clock at 16 |
-| `user-slash` | none | review | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
+| `calendar-clock` | #1026 | done | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `calendar-dots` for `$calendarClock` (schedule view). B picked; bold clock at 16 |
+| `user-slash` | none | done | In Phosphor's backlog ([#1089](https://github.com/phosphor-icons/homepage/issues/1089#issuecomment-7046528971)). Replaces `user-minus` for `$accountOff`. The slash rule removes the right shoulder: decide |
 
 ## Batch 3: slash and badge variants
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `image-slash` | #837 (4) | review | Small mountain left out |
-| `map-pin-slash` | #825, #406 (4) | review | |
-| `music-notes-slash` | #822 (4) | review | A picked. In Phosphor's backlog |
-| `bookmark-simple-slash` | #413 | review | Only the simple one kept (2026-11-25) |
-| `headphones-slash` | #1041 | review | |
-| `monitor-slash` | #1091 | review | |
-| `envelope-check`, `envelope-x` | #780 | review | A picked |
-| `smiley-plus` | #1054 | review | Built like `user-circle-plus` |
-| `clock-plus` | #470 | review | |
-| `calendar-pencil` | #642 | review | A picked; bold pencil at 20 |
-| `calendar-arrow-in`, `calendar-arrow-out` | #920 | review | B picked. In Phosphor's backlog |
-| `calendar-arrow-clockwise` (reschedule) | #977 | review | A picked |
-| `user-circle-star` | #370 | review | |
-| `stack-simple-plus` | #225 | review | |
-| `stack-simple-check` | none | review | Added 2026-11-25 |
+| `image-slash` | #837 (4) | done | Small mountain left out |
+| `map-pin-slash` | #825, #406 (4) | done | |
+| `music-notes-slash` | #822 (4) | done | A picked. In Phosphor's backlog |
+| `bookmark-simple-slash` | #413 | done | Only the simple one kept (2026-11-25) |
+| `headphones-slash` | #1041 | done | |
+| `monitor-slash` | #1091 | done | |
+| `envelope-check`, `envelope-x` | #780 | done | A picked |
+| `smiley-plus` | #1054 | done | Built like `user-circle-plus` |
+| `clock-plus` | #470 | done | |
+| `calendar-pencil` | #642 | done | A picked; bold pencil at 20 |
+| `calendar-arrow-in`, `calendar-arrow-out` | #920 | done | B picked. In Phosphor's backlog |
+| `calendar-arrow-clockwise` (reschedule) | #977 | done | A picked |
+| `user-circle-star` | #370 | done | |
+| `stack-simple-plus` | #225 | done | |
+| `stack-simple-check` | none | done | Added 2026-11-25 |
 
 ## Batch 4: file types
 
 | Icon | Request | Status |
 |---|---|---|
-| `file-xml` | #1039 | review |
-| `file-log` | #697 | review |
-| `file-php` | #565 | review |
+| `file-xml` | #1039 | done |
+| `file-log` | #697 | done |
+| `file-php` | #565 | done |
 
 The three end the page at y 112 like Phosphor's three-letter file icons; `file-json`
 ends at 120 like `file-html`.
@@ -70,37 +70,37 @@ ends at 120 like `file-html`.
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `sort-alphabetical-ascending`, `-descending` | #488 (5) | review | |
-| `replay-10`, `forward-10` | #734 (3) | review | |
-| `line-height` | #527 | review | |
-| `letter-spacing` | #1101 | review | |
-| `text-wrap`, `text-wrap-slash`, `text-overflow` | #906 | review | A's pair plus B's margin version |
-| `bring-forward`, `send-backward`, `bring-to-front`, `send-to-back` | #686 | review | B picked |
-| `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | review | A picked, dashes spaced wider |
-| `group`, `ungroup` | #950 | review | A picked |
-| `page-break` | #824 | review | The next page's slanted corner looks odd |
-| `table-of-contents` | #882 | review | A picked. In Phosphor's backlog ([#1001](https://github.com/phosphor-icons/homepage/issues/1001#issuecomment-4364848452)) |
+| `sort-alphabetical-ascending`, `-descending` | #488 (5) | done | |
+| `replay-10`, `forward-10` | #734 (3) | done | |
+| `line-height` | #527 | done | |
+| `letter-spacing` | #1101 | done | |
+| `text-wrap`, `text-wrap-slash`, `text-overflow` | #906 | done | A's pair plus B's margin version |
+| `bring-forward`, `send-backward`, `bring-to-front`, `send-to-back` | #686 | done | B picked |
+| `border-top`, `-right`, `-bottom`, `-left`, `-none` | #636 | done | A picked, dashes spaced wider |
+| `group`, `ungroup` | #950 | done | A picked |
+| `page-break` | #824 | done | The next page's slanted corner looks odd |
+| `table-of-contents` | #882 | done | A picked. In Phosphor's backlog ([#1001](https://github.com/phosphor-icons/homepage/issues/1001#issuecomment-4364848452)) |
 
 ## Batch 6: new drawings
 
 | Icon | Request | Status | Notes |
 |---|---|---|---|
-| `turtle` | #276 (9) | review | |
-| `steak` | #662 (7) | review | |
-| `satellite`, `satellite-dish` | #585 (7) | review | |
-| `bee` | #850 (6) | review | |
-| `rock`, `rock-tall` | #588 (6) | review | Boulder and tall rock |
-| `bow-and-arrow` | #647 (6) | review | Phosphor: "slated for next release" (2026-11-24); ours is a stand-in. String one step lighter than the bow |
-| `whistle` | #530 (4) | review | |
-| `dumpster` | #353 | review | |
-| `helicopter` | #909 | review | |
-| `restroom`, `wc` | #466 | review | Both: figures (`restroom`) and the neutral WC sign (`wc`) |
-| `ethernet` | #863 | review | |
-| `telescope` | #666 | review | |
-| `passport` | #819 | review | Globe redrawn with parallels and a lens (2026-11-25) |
-| `license-plate` | #849 | review | |
-| `postcard` | #862 | review | |
-| `postage-stamp` | #862 | review | Phosphor's `stamp` is the rubber stamp |
+| `turtle` | #276 (9) | done | |
+| `steak` | #662 (7) | done | |
+| `satellite`, `satellite-dish` | #585 (7) | done | |
+| `bee` | #850 (6) | done | |
+| `rock`, `rock-tall` | #588 (6) | done | Boulder and tall rock |
+| `bow-and-arrow` | #647 (6) | done | Phosphor: "slated for next release" (2026-11-24); ours is a stand-in. String one step lighter than the bow |
+| `whistle` | #530 (4) | done | |
+| `dumpster` | #353 | done | |
+| `helicopter` | #909 | done | |
+| `restroom`, `wc` | #466 | done | Both: figures (`restroom`) and the neutral WC sign (`wc`) |
+| `ethernet` | #863 | done | |
+| `telescope` | #666 | done | |
+| `passport` | #819 | done | Globe redrawn with parallels and a lens (2026-11-25) |
+| `license-plate` | #849 | done | |
+| `postcard` | #862 | done | |
+| `postage-stamp` | #862 | done | Phosphor's `stamp` is the rubber stamp |
 
 ## Batch 7: icons other sets have and Phosphor lacks
 
@@ -110,24 +110,24 @@ Phosphor (names only; nothing drawn after them). The full list and runners-up ar
 
 | Icon | Request | Status |
 |---|---|---|
-| `chat-plus` | #877 (backlog) | review |
-| `chat-question` | #511 | review |
-| `chat-warning` | #1083 | review |
-| `file-check` | none | review |
-| `file-question` | #524 | review |
-| `folder-check` | none | review |
-| `folder-arrow-up` | #153 | review |
-| `user-x` | #1098 (backlog) | review |
-| `copy-check` | none | review |
-| `caret-down-up` | #611 | review | Carets enlarged to caret-down size (2026-11-25) |
-| `bookmark-simple-plus`, `bookmark-simple-check` | none | review |
-| `shield-x` | none | review |
-| `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | review |
-| `layout-dashboard` | #617 | review |
-| `tags` | #464 (backlog) | review |
-| `image-plus` | #1089 (backlog, maybe next release) | review |
-| `shopping-cart-plus` | #354 | review |
-| `chart-area` | #878 | review | A; a filled-area variant waits for a pick |
+| `chat-plus` | #877 (backlog) | done |
+| `chat-question` | #511 | done |
+| `chat-warning` | #1083 | done |
+| `file-check` | none | done |
+| `file-question` | #524 | done |
+| `folder-check` | none | done |
+| `folder-arrow-up` | #153 | done |
+| `user-x` | #1098 (backlog) | done |
+| `copy-check` | none | done |
+| `caret-down-up` | #611 | done | Carets enlarged to caret-down size (2026-11-25) |
+| `bookmark-simple-plus`, `bookmark-simple-check` | none | done |
+| `shield-x` | none | done |
+| `sidebar-simple-right`, `sidebar-simple-bottom` | #759 | done |
+| `layout-dashboard` | #617 | done |
+| `tags` | #464 (backlog) | done |
+| `image-plus` | #1089 (backlog, maybe next release) | done |
+| `shopping-cart-plus` | #354 | done |
+| `chart-area` | #878 | done | A; a filled-area variant waits for a pick |
 
 ## Parked: Phosphor said theirs is coming
 
