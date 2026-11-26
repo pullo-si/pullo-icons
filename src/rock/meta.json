@@ -26,7 +26,7 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "After the maintainer's reference (the faceted boulder): a ten-sided outline from x 36 to 224 and y 36 to 224 with a flat base, straight edges and round joins. Inside, one broken line from the top-left corner (76,60) via (164,80) and (168,156) to the base corner (140,224) splits off a band of facets on the top and right, and one spoke from (164,80) to the corner (212,60) parts the top facet from the side facet. The reference's third facet along the bottom was left out: at 16 px its band closed up. The tall rock with a crack, the other drawing in the reference, is on the review sheet as a sketch.",
+    "drawing": "After the maintainer's reference (the faceted boulder), made angular in round 3: an irregular hexagon tilted to the left, with long straight sides and clear corners (72,52), (168,28), (224,96), (200,184), (112,224), (32,156). Inside, one broken line from the top-left corner via (152,84) and (160,160) to the bottom corner (112,224) splits off a band of facets on the top and right, and one spoke from (152,84) to the right corner (224,96) parts the top facet from the side facet. (The facet point was first at (152,80); there the build filled the side facets in light, a numeric glitch in the merge, so it moved 4 units down.) The reference's third facet along the bottom was left out: at 16 px its band closed up.",
     "fill": "As in the reference's fill: the facet lines become white gaps at the regular stroke, carried 16 units past the outline so the three faces come apart cleanly.",
     "duotone": "Only the front face is tinted, as Phosphor's cube-duotone tints one face."
   }

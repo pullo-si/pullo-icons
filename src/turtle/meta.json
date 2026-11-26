@@ -25,8 +25,9 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "Side view, direction A: a shell dome on a flat base, a pill head raised forward on its neck, two stubby feet and a short tail. The dome is half an ellipse (168 wide, 96 high, as cubics); the sketch's half circle was 120 units tall beside rabbit's 232, so the dome got taller, the head moved up and the feet got longer: it now spans y 48 to 200 (152 units), about as tall as Phosphor's car-profile and as wide as bird. One line across the shell (y 116) marks its rim; shell plates filled in at 16 px in round 1, this single line stays open (36 units to the base).",
-    "fill": "Solid, with the rim cut as a white band, the way bug-beetle-fill cuts its head off. The band runs out through the back of the shell but stops 8 units short of the front, so it doesn't cut into the neck. The tail stays a line.",
+    "drawing": "Side view, direction A as sketched in round 1: a shell dome on a flat base, the head a pill held low and forward with its underside in line with the base, two legs and a short tail. The dome is half an ellipse (168 wide, 112 high, as cubics) instead of the sketch's half circle, so the turtle stands y 32 to 200 outside the stroke (the sketch was 120 units tall beside rabbit's 232). The legs are stubs 40 long that taper from 40 (back leg 36) to 24 units and splay outwards (back leg backwards, front leg forwards), so they read as legs and not as wheels. Round 2's raised head and rim line were dropped: with the rim, the round feet read as a little car at 16 px.",
+    "bold": "No override: at 24 the legs close up into solid tapered stubs, which still read as legs, and the head keeps a 16-unit opening.",
+    "fill": "Shell, head and legs solid; the tail stays a line.",
     "duotone": "Only the shell is tinted."
   }
 }

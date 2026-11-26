@@ -25,9 +25,9 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "A wheeled waste container from the front, after the maintainer's reference: a trapezoid lid (y 28 to 60), a rim bar wider than the body (x 24 to 232, y 60 to 92), a body that narrows toward the bottom (x 44/212 at the top, 60/196 at y 184), two horizontal lines on the body and two wheels (radius 12) under it. The wheels overlap the body's bottom line, so they read as casters. Every gap is 16 units in regular, except the lines' gaps to the rim and the bottom (14). No Phosphor icon is this outline, so there is no frame check.",
-    "bold": "One body line (y 138) instead of two: at 24 the two lines and the body edges left only 4 to 6 units between them and closed up at 16 px.",
-    "fill": "Lid, rim and body are solid; 8-unit white cuts across the full width (y 56 and 100) set the rim off from lid and body, and the two body lines are cut out (moved to y 132 and 164 so the solid strips between them stay 16 units or more). The wheels are solid discs.",
+    "drawing": "A wheeled waste container from the front, after the maintainer's reference, wider than it is tall: a low trapezoid lid across the full width (y 44 to 72, x 40 to 216 at the bottom, 64 to 192 at the top), a rim bar (x 24 to 232, y 72 to 104) that sticks out 16 units past the body on each side, a body with a slight taper (x 40/216 at the top, 48/208 at the bottom, y 104 to 192), two short lines on it (y 132 and 164) and two small wheels (radius 12) under the bottom corners (x 64 and 192). Round 2 had a tall, strongly tapered body with the wheels close together and read as a cup on wheels. Gaps are 16 units in regular, except the lid's opening (12) and the lines' gaps to the rim and the bottom (12). No Phosphor icon is this outline, so there is no frame check.",
+    "bold": "One body line (y 148) instead of two, which closed up at 24. The lid is 4 units taller (top at y 40) so it keeps an 8-unit opening. The wheels are filled discs of radius 20 with no stroke: a stroked radius-12 wheel would be a 24-unit blob, and a smaller stroked circle renders with a hole in the browser, so compare could not check it.",
+    "fill": "Lid, rim and body are solid; 8-unit white cuts across the full width (y 68 and 108) set the rim off from lid and body, and the two body lines are cut out at y 136 and 168 so the solid strips stay 16 units or more. The wheels are solid discs.",
     "duotone": "Lid and body are tinted; the rim and wheels are not."
   }
 }

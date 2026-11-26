@@ -26,8 +26,8 @@
   ],
   "frame": null,
   "notes": {
-    "drawing": "text-wrap with the bell-slash slash, (48,40) to (208,216). Every part on the lower-left side runs into the slash; every part on the upper-right side stops 32 units from its centerline (cut ends computed on the lines, the curl and the arrowhead). The slash crosses the three rows, so the top and middle lines each keep a short left piece; the curl keeps its upper half and the arrowhead's upper arm ends on the slash.",
-    "fill": "text-wrap-fill with image-slash-fill's cut: a white band 8–24 units on the slash's upper-right side, then the slash in currentColor.",
+    "drawing": "text-wrap with a slash at bell-slash's angle, but only as long as the text block, as text-t-slash's slash runs 16 units past its T's top bar and foot (round 3: the maintainer didn't want it edge to edge). It lies on bell-slash's line and runs from y 48 to 208, 16 past the top and bottom rows: (55.27,48) to (200.73,208). Every part on the lower-left side runs into the slash; every part on the upper-right side stops 32 units from its centerline (cut ends computed on the lines, the curl and the arrowhead). The top and middle lines each keep a short left piece; the curl keeps its upper half and the arrowhead's upper arm ends on the slash.",
+    "fill": "As text-t-slash-fill: a filled rounded square with the glyph and the slash both cut out in white. The slash runs 16 past the glyph's rows (y 64 to 192) on a line 16 units left of the line weights' one, so the smaller curl keeps its upper half; the glyph's upper-right parts stop 32 from it (16 dark between the white lines), and the top line's left end (4 units long) is dropped, as text-t-slash-fill drops its top bar's left end.",
     "duotone": "text-wrap's tint with a white band 0–24 units on the slash's upper-right side, as image-slash-duotone."
   }
 }

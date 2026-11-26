@@ -89,7 +89,7 @@ ends at 120 like `file-html`.
 | `steak` | #662 (7) | review | |
 | `satellite`, `satellite-dish` | #585 (7) | review | |
 | `bee` | #850 (6) | review | |
-| `rock` | #588 (6) | review | |
+| `rock`, `rock-tall` | #588 (6) | review | Boulder and tall rock |
 | `bow-and-arrow` | #647 (6) | review | Phosphor: "slated for next release" (2026-11-24); ours is a stand-in. String one step lighter than the bow |
 | `whistle` | #530 (4) | review | |
 | `dumpster` | #353 | review | |

@@ -1,13 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <g stroke-linecap="round" stroke-linejoin="round" stroke-width="16">
-    <path d="M52 60L72 28H184L204 60Z" fill="currentColor" stroke="currentColor"/>
-    <path d="M44 92L60 184H196L212 92Z" fill="currentColor" stroke="currentColor"/>
-    <circle cx="84" cy="204" r="12" fill="currentColor" stroke="currentColor"/>
-    <circle cx="172" cy="204" r="12" fill="currentColor" stroke="currentColor"/>
-    <path d="M32 60H224A8 8 0 0 1 232 68V84A8 8 0 0 1 224 92H32A8 8 0 0 1 24 84V68A8 8 0 0 1 32 60Z" fill="currentColor" stroke="currentColor"/>
-    <g fill="none" stroke="#fff" stroke-width="8"><line x1="8" y1="56" x2="248" y2="56"/>
-    <line x1="8" y1="100" x2="248" y2="100"/>
-    </g><line x1="92" y1="132" x2="164" y2="132" stroke="#fff"/>
-    <line x1="92" y1="164" x2="164" y2="164" stroke="#fff"/>
+    <path d="M40 72L64 44H192L216 72Z" fill="currentColor" stroke="currentColor"/>
+    <path d="M40 104L48 192H208L216 104Z" fill="currentColor" stroke="currentColor"/>
+    <circle cx="64" cy="208" r="12" fill="currentColor" stroke="currentColor"/>
+    <circle cx="192" cy="208" r="12" fill="currentColor" stroke="currentColor"/>
+    <path d="M32 72H224A8 8 0 0 1 232 80V96A8 8 0 0 1 224 104H32A8 8 0 0 1 24 96V80A8 8 0 0 1 32 72Z" fill="currentColor" stroke="currentColor"/>
+    <g fill="none" stroke="#fff" stroke-width="8"><line x1="8" y1="68" x2="248" y2="68"/>
+    <line x1="8" y1="108" x2="248" y2="108"/>
+    </g><line x1="84" y1="136" x2="172" y2="136" stroke="#fff"/>
+    <line x1="84" y1="168" x2="172" y2="168" stroke="#fff"/>
   </g>
 </svg>

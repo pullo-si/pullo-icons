@@ -1,0 +1,33 @@
+{
+  "tags": [
+    "rock",
+    "stone",
+    "boulder",
+    "cliff",
+    "crag",
+    "monolith",
+    "geology",
+    "climbing",
+    "nature",
+    "terrain"
+  ],
+  "categories": [
+    "nature",
+    "objects"
+  ],
+  "phosphorRequest": "https://github.com/phosphor-icons/homepage/issues/588",
+  "addedIn": "0.3.0",
+  "neighbours": [
+    "mountains",
+    "cube",
+    "hexagon",
+    "tree",
+    "lighthouse"
+  ],
+  "frame": null,
+  "notes": {
+    "drawing": "After the tall rock in the maintainer's reference: a broad base from x 40 to 216 at y 216, a slanted blunt top from (112,36) to (176,52), steep sides, and one notch on the left at (88,112)/(76,88). A crack runs from the top edge at (144,44) via (164,120) down to the base at (156,216), splitting off the right face.",
+    "fill": "Same treatment as rock: the crack becomes a white gap at the regular stroke, carried 16 units past the outline at both ends.",
+    "duotone": "The left (front) face is tinted."
+  }
+}

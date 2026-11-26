@@ -27,8 +27,8 @@
   "frame": null,
   "notes": {
     "name": "Named postage-stamp because Phosphor's stamp is the rubber stamp.",
-    "drawing": "A landscape stamp after the maintainer's reference: the perforated edge is a rectangle (x 32 to 224, y 48 to 208) with semicircular bites of radius 16, three on the long sides and two on the short ones, an inner frame (x 80 to 176, y 96 to 160, 16 units from the bites) and a round mark in the middle. Four bites a side at radius 12 and 14 were tried: at 16 px they ran together into a grey border; three and two at radius 16 still read as perforation. The mark is a small circle (radius 4), so it is a solid dot in every weight: a ring inside the frame left 4 to 8 units on each side and closed up at 16 and 20 px.",
-    "bold": "The dot is a filled disc of radius 13 with no stroke (at 24 a stroked dot would be a 16-unit disc and touch the frame); it keeps 7 units from the frame. A stroked circle smaller than the half-stroke also renders with a hole in the browser, so compare could not check it. The rest is as in regular; the bites keep a 4-unit notch, which still reads as perforation.",
-    "fill": "The stamp is solid; the inner frame and the dot are cut out at regular width."
+    "drawing": "A landscape stamp after the maintainer's reference: a perforated edge, an inner frame and a circle in the middle. The edge is a rectangle (x 32 to 224, y 48 to 208) with shallow circular bites 24 units wide and 10 deep (radius 12.2), five on the long sides and four on the short ones; the round-2 bites (radius 16, a full half circle) were too deep and did not read as a stamp. Six and seven bites a side at depth 8 and 6 were tried: at 16 px they turned into a grey fuzzy border. The inner frame (x 72 to 184, y 88 to 168) keeps 12 units from the bites' inner tips and from the ring (radius 12) in the middle.",
+    "bold": "Deeper, wider bites (28 wide, 14 deep) so the notches stay open at 24; the frame moves in 4 units (x 76 to 180, y 92 to 164) to keep 6 units from them. The circle is a filled disc of radius 14 with no stroke (a stroked ring would be a 48-unit blob touching the frame; a stroked circle smaller than the half-stroke renders with a hole in the browser).",
+    "fill": "The stamp is solid; the inner frame and the ring are cut out at regular width."
   }
 }
