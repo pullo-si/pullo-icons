@@ -24,7 +24,7 @@
   "notes": {
     "frame": "Phosphor's envelope, cut so the frame's ends sit 32 units from the badge's centerline: 16 stay clear at regular, 8 in bold. The badge sits at the bottom right, so the flap keeps its whole V.",
     "drawing": "phone-x's x (48 wide) at the bottom right, where envelope-check has its check.",
-    "fill": "envelope-fill with a white band 24 units round the badge, then the badge as a line, as bell-dot cuts the bell round its dot.",
+    "fill": "Phosphor's envelope-fill with a white disc (radius 48) cut out under the badge. A 48-wide white band following the glyph left small rounded nubs where it grazed the frame; one circular cut ends the frame cleanly.",
     "duotone": "The flap is tinted as in envelope-duotone."
   }
 }
